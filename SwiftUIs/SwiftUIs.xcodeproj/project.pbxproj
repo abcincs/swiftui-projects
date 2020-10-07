@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		82BC169B252DB80400148512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169A252DB80400148512 /* AppDelegate.swift */; };
 		82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169C252DB80400148512 /* SceneDelegate.swift */; };
 		82BC169F252DB80400148512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169E252DB80400148512 /* ContentView.swift */; };
@@ -43,9 +44,11 @@
 		82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E7252DBBE300148512 /* CrazyAudioMack.swift */; };
 		82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F2252DBC5000148512 /* CreditCardView.swift */; };
 		82BC16F6252DBC7100148512 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F5252DBC7100148512 /* Helper.swift */; };
+		82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F9252DC83400148512 /* CrazyScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		82BC1697252DB80400148512 /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC169A252DB80400148512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82BC169C252DB80400148512 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		82BC16E7252DBBE300148512 /* CrazyAudioMack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyAudioMack.swift; sourceTree = "<group>"; };
 		82BC16F2252DBC5000148512 /* CreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
 		82BC16F5252DBC7100148512 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		82BC16F9252DC83400148512 /* CrazyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				82BC16DC252DBB9E00148512 /* Project 7 */,
 				82BC16DF252DBBE300148512 /* Project 8 */,
 				82BC16F0252DBC5000148512 /* Project 9 */,
+				82BC16F8252DC81F00148512 /* Project 10 */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -245,6 +250,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		82BC16F8252DC81F00148512 /* Project 10 */ = {
+			isa = PBXGroup;
+			children = (
+				82BC16F9252DC83400148512 /* CrazyScroll.swift */,
+				826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */,
+			);
+			path = "Project 10";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -322,6 +336,7 @@
 				82BC16B4252DB88F00148512 /* CrazyButton.swift in Sources */,
 				82BC16DA252DBB4B00148512 /* CrazyTab.swift in Sources */,
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
+				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
 				82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */,
 				82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */,
@@ -347,6 +362,7 @@
 				82BC16EA252DBBE300148512 /* CrazyZCards.swift in Sources */,
 				82BC16C3252DB95B00148512 /* CrazyCharts.swift in Sources */,
 				82BC169F252DB80400148512 /* ContentView.swift in Sources */,
+				826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */,
 				82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */,
 				82BC16D2252DBA7D00148512 /* FloatingButton.swift in Sources */,
 			);
