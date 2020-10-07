@@ -19,7 +19,7 @@ struct CrazyScroll: View {
                     GridStack(rows: 3, columns: 2) { row, column in
                         CustomView()
                             .padding(.vertical)
-                            .frame(width: geo.size.width / 2 - 69)
+                            .frame(width: geo.size.width / 2 - 60)
                             .background(Color(red: 0.344, green: 0.378, blue: 0.859))
                             .animation(.spring())
                             .offset(x: self.cardOffSet.width / CGFloat(row + 1))
