@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
 		826FBA58252E1F06006F766D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA57252E1F06006F766D /* ChatsView.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
 		826FBA57252E1F06006F766D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82148564252F2B3300BC60BC /* Project 12 */ = {
+			isa = PBXGroup;
+			children = (
+				82148567252F2B4B00BC60BC /* CloudView.swift */,
+			);
+			path = "Project 12";
+			sourceTree = "<group>";
+		};
 		826FBA52252E14D7006F766D /* Project 11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 				82BC16F0252DBC5000148512 /* Project 9 */,
 				82BC16F8252DC81F00148512 /* Project 10 */,
 				826FBA52252E14D7006F766D /* Project 11 */,
+				82148564252F2B3300BC60BC /* Project 12 */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -351,6 +362,7 @@
 				82BC16DA252DBB4B00148512 /* CrazyTab.swift in Sources */,
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
 				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
+				82148568252F2B4B00BC60BC /* CloudView.swift in Sources */,
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
 				82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */,
 				826FBA58252E1F06006F766D /* ChatsView.swift in Sources */,
