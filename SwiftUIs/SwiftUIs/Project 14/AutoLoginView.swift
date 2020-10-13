@@ -16,7 +16,8 @@ struct AutoLoginView: View {
 
 struct AutoLoginView_Previews: PreviewProvider {
     static var previews: some View {
-        AutoLoginView().previewLayout(.fixed(width: 816, height: 410))
+        AutoLoginView()
+            .previewLayout(.fixed(width: 816, height: 410))
     }
 }
 
