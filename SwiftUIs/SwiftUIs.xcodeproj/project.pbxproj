@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
+		824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E59B42535A2CC007F3330 /* AutoLoginView.swift */; };
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
 		826FBA58252E1F06006F766D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA57252E1F06006F766D /* ChatsView.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
+		824E59B42535A2CC007F3330 /* AutoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginView.swift; sourceTree = "<group>"; };
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
 		826FBA57252E1F06006F766D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
@@ -164,6 +166,8 @@
 				826FBA52252E14D7006F766D /* Project 11 */,
 				82148564252F2B3300BC60BC /* Project 12 */,
 				82E280CA2535A004006A18D4 /* Project 13 */,
+				82E280CF2535A0AA006A18D4 /* Project 14 */,
+				82E280D02535A0BA006A18D4 /* Project 15 */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -298,6 +302,21 @@
 			path = "Project 13";
 			sourceTree = "<group>";
 		};
+		82E280CF2535A0AA006A18D4 /* Project 14 */ = {
+			isa = PBXGroup;
+			children = (
+				824E59B42535A2CC007F3330 /* AutoLoginView.swift */,
+			);
+			path = "Project 14";
+			sourceTree = "<group>";
+		};
+		82E280D02535A0BA006A18D4 /* Project 15 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Project 15";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -380,6 +399,7 @@
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
 				82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */,
 				826FBA58252E1F06006F766D /* ChatsView.swift in Sources */,
+				824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */,
 				82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */,
 				826FBA56252E1502006F766D /* InstaKilo.swift in Sources */,
 				82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */,
