@@ -48,6 +48,8 @@
 		82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F2252DBC5000148512 /* CreditCardView.swift */; };
 		82BC16F6252DBC7100148512 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F5252DBC7100148512 /* Helper.swift */; };
 		82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F9252DC83400148512 /* CrazyScroll.swift */; };
+		82E280CC2535A045006A18D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CB2535A045006A18D4 /* Home.swift */; };
+		82E280CE2535A04B006A18D4 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CD2535A04B006A18D4 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		82BC16F2252DBC5000148512 /* CreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
 		82BC16F5252DBC7100148512 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		82BC16F9252DC83400148512 /* CrazyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyScroll.swift; sourceTree = "<group>"; };
+		82E280CB2535A045006A18D4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		82E280CD2535A04B006A18D4 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,7 @@
 				82BC16F8252DC81F00148512 /* Project 10 */,
 				826FBA52252E14D7006F766D /* Project 11 */,
 				82148564252F2B3300BC60BC /* Project 12 */,
+				82E280CA2535A004006A18D4 /* Project 13 */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -284,6 +289,15 @@
 			path = "Project 10";
 			sourceTree = "<group>";
 		};
+		82E280CA2535A004006A18D4 /* Project 13 */ = {
+			isa = PBXGroup;
+			children = (
+				82E280CD2535A04B006A18D4 /* TabView.swift */,
+				82E280CB2535A045006A18D4 /* Home.swift */,
+			);
+			path = "Project 13";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,6 +389,7 @@
 				82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */,
 				82BC16DB252DBB4B00148512 /* CalendarView.swift in Sources */,
 				82BC16ED252DBBE300148512 /* CrazyPassCode.swift in Sources */,
+				82E280CE2535A04B006A18D4 /* TabView.swift in Sources */,
 				82BC16F6252DBC7100148512 /* Helper.swift in Sources */,
 				82BC16D3252DBA7D00148512 /* FloatingMenu.swift in Sources */,
 				82BC16D9252DBB4B00148512 /* DatePicker.swift in Sources */,
@@ -384,6 +399,7 @@
 				82BC16C4252DB95B00148512 /* CrazyHStack.swift in Sources */,
 				82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */,
 				82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */,
+				82E280CC2535A045006A18D4 /* Home.swift in Sources */,
 				82BC16BD252DB90700148512 /* GridStack.swift in Sources */,
 				82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */,
 				82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */,
