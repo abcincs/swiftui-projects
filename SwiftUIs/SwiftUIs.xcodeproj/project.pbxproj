@@ -12,6 +12,7 @@
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
 		826FBA58252E1F06006F766D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA57252E1F06006F766D /* ChatsView.swift */; };
+		82B043EF253B54480066C526 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B043EE253B54480066C526 /* TicTacToe.swift */; };
 		82BC169B252DB80400148512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169A252DB80400148512 /* AppDelegate.swift */; };
 		82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169C252DB80400148512 /* SceneDelegate.swift */; };
 		82BC169F252DB80400148512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169E252DB80400148512 /* ContentView.swift */; };
@@ -59,6 +60,7 @@
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
 		826FBA57252E1F06006F766D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		82B043EE253B54480066C526 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		82BC1697252DB80400148512 /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC169A252DB80400148512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82BC169C252DB80400148512 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 		82E280D02535A0BA006A18D4 /* Project 15 */ = {
 			isa = PBXGroup;
 			children = (
+				82B043EE253B54480066C526 /* TicTacToe.swift */,
 			);
 			path = "Project 15";
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */,
 				82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */,
 				82BC16EA252DBBE300148512 /* CrazyZCards.swift in Sources */,
+				82B043EF253B54480066C526 /* TicTacToe.swift in Sources */,
 				82BC16C3252DB95B00148512 /* CrazyCharts.swift in Sources */,
 				82BC169F252DB80400148512 /* ContentView.swift in Sources */,
 				826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */,
