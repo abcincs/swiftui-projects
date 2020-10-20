@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
+		821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC8CD253EC2B1005253AD /* CedricView.swift */; };
 		824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E59B42535A2CC007F3330 /* AutoLoginView.swift */; };
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
+		821CC8CD253EC2B1005253AD /* CedricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedricView.swift; sourceTree = "<group>"; };
 		824E59B42535A2CC007F3330 /* AutoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginView.swift; sourceTree = "<group>"; };
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
@@ -123,6 +125,14 @@
 			path = "Project 12";
 			sourceTree = "<group>";
 		};
+		821CC8CC253EC29A005253AD /* Project 16 */ = {
+			isa = PBXGroup;
+			children = (
+				821CC8CD253EC2B1005253AD /* CedricView.swift */,
+			);
+			path = "Project 16";
+			sourceTree = "<group>";
+		};
 		826FBA52252E14D7006F766D /* Project 11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +180,7 @@
 				82E280CA2535A004006A18D4 /* Project 13 */,
 				82E280CF2535A0AA006A18D4 /* Project 14 */,
 				82E280D02535A0BA006A18D4 /* Project 15 */,
+				821CC8CC253EC29A005253AD /* Project 16 */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -408,6 +419,7 @@
 				82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */,
 				82BC16BB252DB90700148512 /* CrazyCircles.swift in Sources */,
 				82BC16C7252DB9BA00148512 /* CrazyStarsVars.swift in Sources */,
+				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
 				82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */,
 				82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */,
 				82BC16DB252DBB4B00148512 /* CalendarView.swift in Sources */,
