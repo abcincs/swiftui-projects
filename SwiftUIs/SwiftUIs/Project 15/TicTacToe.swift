@@ -96,7 +96,7 @@ struct TicTacToe: View {
         let pcase2  = [self.items[3],  self.items[4], self.items[5]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
         let pcase3  = [self.items[6],  self.items[7], self.items[8]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
         let pcase4  = [self.items[0],  self.items[3], self.items[6]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
-        let pcase5  = [self.items[1],  self.items[5], self.items[7]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
+        let pcase5  = [self.items[1],  self.items[4], self.items[7]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
         let pcase6  = [self.items[2],  self.items[5], self.items[8]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
         let pcase7  = [self.items[0],  self.items[4], self.items[8]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
         let pcase8  = [self.items[2],  self.items[4], self.items[6]].allSatisfy({ !$0.isHuman && $0.hasbeenSelected })
@@ -115,5 +115,17 @@ struct TicTacToe: View {
 struct TicTacToe_Previews: PreviewProvider {
     static var previews: some View {
         TicTacToe()
+    }
+}
+
+
+extension Binding {
+    func onChange(_ handler: @escaping (Value) -> Void) -> Binding<Value> {
+        Binding(
+            get: { self.wrappedValue},
+            set: { newValue in
+                self.wrappedValue = newValue
+                handler(newValue)
+        })
     }
 }
