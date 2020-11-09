@@ -13,6 +13,7 @@
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
 		826FBA58252E1F06006F766D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA57252E1F06006F766D /* ChatsView.swift */; };
+		829E2EB32559785500C52B31 /* TwitterCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E2EB22559785500C52B31 /* TwitterCharView.swift */; };
 		82B043EF253B54480066C526 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B043EE253B54480066C526 /* TicTacToe.swift */; };
 		82BC169B252DB80400148512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169A252DB80400148512 /* AppDelegate.swift */; };
 		82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169C252DB80400148512 /* SceneDelegate.swift */; };
@@ -62,6 +63,7 @@
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
 		826FBA57252E1F06006F766D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		829E2EB22559785500C52B31 /* TwitterCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCharView.swift; sourceTree = "<group>"; };
 		82B043EE253B54480066C526 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		82BC1697252DB80400148512 /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC169A252DB80400148512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				821CC8CD253EC2B1005253AD /* CedricView.swift */,
+				829E2EB22559785500C52B31 /* TwitterCharView.swift */,
 			);
 			path = "Project 16";
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
 				82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */,
 				82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */,
+				829E2EB32559785500C52B31 /* TwitterCharView.swift in Sources */,
 				82BC16DB252DBB4B00148512 /* CalendarView.swift in Sources */,
 				82BC16ED252DBBE300148512 /* CrazyPassCode.swift in Sources */,
 				82E280CE2535A04B006A18D4 /* TabView.swift in Sources */,

@@ -26,18 +26,20 @@ struct CrazyTab: View {
                     HStack(spacing: 5) {
                         Image(systemName: self.images[index])
                             .imageScale(.large)
-                        Text(index == self.index ? self.images[index].prefix(5).capitalized : "")
+//                        Text(index == self.index ? self.images[index].prefix(5).capitalized : "")
+                            Text(self.images[index].prefix(5).capitalized)
                             .transition(.slide)
-                        
+
                     }
                     .foregroundColor(self.index == index ?  .white : .black)
                     .frame(width: 100, height: 40)
+                        .background(Capsule().fill(Color.gray.opacity(0.2)))
                     .onTapGesture {
                         withAnimation(.spring(response: 0.75, dampingFraction: 0.8, blendDuration: 0.1)) {
                             self.index = index
                         }
                     }
-                    .foregroundColor(Color.black)
+//                    .foregroundColor(Color.black)
                     
                 }
             }
