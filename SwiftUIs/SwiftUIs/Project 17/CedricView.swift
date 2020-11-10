@@ -33,9 +33,11 @@ struct CedricView: View {
                     .applyClip(isNotCircle: $binder)
                     .offset(self.dragAmount)
                     .onTapGesture {
-                        withAnimation(Animation.spring().speed(0.3)) {
-                            self.isFull.toggle()
-                            self.binder = self.isFull && !self.isDragging
+                        if !self.isFull {
+                            withAnimation(Animation.spring().speed(0.3)) {
+                                self.isFull.toggle()
+                                self.binder = self.isFull && !self.isDragging
+                            }
                         }
                 }
                 .gesture(
