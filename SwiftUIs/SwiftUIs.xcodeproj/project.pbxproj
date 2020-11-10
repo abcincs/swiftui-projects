@@ -119,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		820FCED1255AC3D400421D1C /* Project 17 */ = {
+			isa = PBXGroup;
+			children = (
+				821CC8CD253EC2B1005253AD /* CedricView.swift */,
+			);
+			path = "Project 17";
+			sourceTree = "<group>";
+		};
 		82148564252F2B3300BC60BC /* Project 12 */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +138,6 @@
 		821CC8CC253EC29A005253AD /* Project 16 */ = {
 			isa = PBXGroup;
 			children = (
-				821CC8CD253EC2B1005253AD /* CedricView.swift */,
 				829E2EB22559785500C52B31 /* TwitterCharView.swift */,
 			);
 			path = "Project 16";
@@ -184,6 +191,7 @@
 				82E280CF2535A0AA006A18D4 /* Project 14 */,
 				82E280D02535A0BA006A18D4 /* Project 15 */,
 				821CC8CC253EC29A005253AD /* Project 16 */,
+				820FCED1255AC3D400421D1C /* Project 17 */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
