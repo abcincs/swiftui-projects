@@ -10,6 +10,7 @@
 		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
 		821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC8CD253EC2B1005253AD /* CedricView.swift */; };
 		824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E59B42535A2CC007F3330 /* AutoLoginView.swift */; };
+		82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82625196255AD635009B0DD7 /* WhatsappStatus.swift */; };
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
 		826FBA58252E1F06006F766D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA57252E1F06006F766D /* ChatsView.swift */; };
@@ -60,6 +61,7 @@
 		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
 		821CC8CD253EC2B1005253AD /* CedricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedricView.swift; sourceTree = "<group>"; };
 		824E59B42535A2CC007F3330 /* AutoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginView.swift; sourceTree = "<group>"; };
+		82625196255AD635009B0DD7 /* WhatsappStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappStatus.swift; sourceTree = "<group>"; };
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
 		826FBA57252E1F06006F766D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
@@ -122,7 +124,7 @@
 		820FCED1255AC3D400421D1C /* Project 17 */ = {
 			isa = PBXGroup;
 			children = (
-				821CC8CD253EC2B1005253AD /* CedricView.swift */,
+				82625196255AD635009B0DD7 /* WhatsappStatus.swift */,
 			);
 			path = "Project 17";
 			sourceTree = "<group>";
@@ -141,6 +143,14 @@
 				829E2EB22559785500C52B31 /* TwitterCharView.swift */,
 			);
 			path = "Project 16";
+			sourceTree = "<group>";
+		};
+		82625195255AD625009B0DD7 /* Project 18 */ = {
+			isa = PBXGroup;
+			children = (
+				821CC8CD253EC2B1005253AD /* CedricView.swift */,
+			);
+			path = "Project 18";
 			sourceTree = "<group>";
 		};
 		826FBA52252E14D7006F766D /* Project 11 */ = {
@@ -192,6 +202,7 @@
 				82E280D02535A0BA006A18D4 /* Project 15 */,
 				821CC8CC253EC29A005253AD /* Project 16 */,
 				820FCED1255AC3D400421D1C /* Project 17 */,
+				82625195255AD625009B0DD7 /* Project 18 */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -420,6 +431,7 @@
 				82BC16DA252DBB4B00148512 /* CrazyTab.swift in Sources */,
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
 				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
+				82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */,
 				82148568252F2B4B00BC60BC /* CloudView.swift in Sources */,
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
 				82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */,
@@ -524,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -578,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

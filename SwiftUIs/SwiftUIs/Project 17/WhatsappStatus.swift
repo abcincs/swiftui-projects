@@ -1,15 +1,14 @@
 //
-//  CedricView.swift
+//  WhatsappStatus.swift
 //  SwiftUIs
 //
-//  Created by Cedric Bahirwe on 10/20/20.
+//  Created by Cedric Bahirwe on 11/10/20.
 //  Copyright © 2020 Cedric Bahirwe. All rights reserved.
 //
 
 import SwiftUI
 
-struct CedricView: View {
-    let geometry = UIScreen.main.bounds.size
+struct WhatsappStatus: View {
     @State private var n1: CGFloat = 100
     @State private var n2: CGFloat = 100
     @State private var n3: CGFloat = 100
@@ -74,16 +73,14 @@ struct CedricView: View {
                 self.n3 = CGFloat.random(in: 5...120)
             }
         }
-        
     }
 }
 
-struct CedricView_Previews: PreviewProvider {
+struct WhatsappStatus_Previews: PreviewProvider {
     static var previews: some View {
-        CedricView()
+        WhatsappStatus()
     }
 }
-
 
 struct RightClip: ViewModifier {
     
