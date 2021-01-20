@@ -1,2 +1,2 @@
 # swiftui
-All Prototypes about SwiftUI
+Prototypes, Views, etc with SwiftUI
