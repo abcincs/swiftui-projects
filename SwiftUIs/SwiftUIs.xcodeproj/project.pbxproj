@@ -10,6 +10,7 @@
 		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
 		821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC8CD253EC2B1005253AD /* CedricView.swift */; };
 		824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E59B42535A2CC007F3330 /* AutoLoginView.swift */; };
+		82571A3B25B8829400FB1F37 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82571A3A25B8829400FB1F37 /* Project1.swift */; };
 		82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82625196255AD635009B0DD7 /* WhatsappStatus.swift */; };
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
@@ -61,6 +62,7 @@
 		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
 		821CC8CD253EC2B1005253AD /* CedricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedricView.swift; sourceTree = "<group>"; };
 		824E59B42535A2CC007F3330 /* AutoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginView.swift; sourceTree = "<group>"; };
+		82571A3A25B8829400FB1F37 /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 		82625196255AD635009B0DD7 /* WhatsappStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappStatus.swift; sourceTree = "<group>"; };
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
@@ -145,6 +147,40 @@
 			path = "Project 16";
 			sourceTree = "<group>";
 		};
+		82571A2D25B880F300FB1F37 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				82BC16F7252DBE2F00148512 /* Helpers */,
+				82BC16B0252DB88F00148512 /* Project 1 */,
+				82BC16B5252DB90700148512 /* Project 2 */,
+				82BC16C0252DB95B00148512 /* Project 3 */,
+				82BC16C5252DB9BA00148512 /* Project 4 */,
+				82BC16CE252DBA7C00148512 /* Project 5 */,
+				82BC16D5252DBB4B00148512 /* Project 6 */,
+				82BC16DC252DBB9E00148512 /* Project 7 */,
+				82BC16DF252DBBE300148512 /* Project 8 */,
+				82BC16F0252DBC5000148512 /* Project 9 */,
+				82BC16F8252DC81F00148512 /* Project 10 */,
+				826FBA52252E14D7006F766D /* Project 11 */,
+				82148564252F2B3300BC60BC /* Project 12 */,
+				82E280CA2535A004006A18D4 /* Project 13 */,
+				82E280CF2535A0AA006A18D4 /* Project 14 */,
+				82E280D02535A0BA006A18D4 /* Project 15 */,
+				821CC8CC253EC29A005253AD /* Project 16 */,
+				820FCED1255AC3D400421D1C /* Project 17 */,
+				82625195255AD625009B0DD7 /* Project 18 */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		82571A2F25B8810200FB1F37 /* January */ = {
+			isa = PBXGroup;
+			children = (
+				82571A3A25B8829400FB1F37 /* Project1.swift */,
+			);
+			path = January;
+			sourceTree = "<group>";
+		};
 		82625195255AD625009B0DD7 /* Project 18 */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,25 +220,8 @@
 				82BC169A252DB80400148512 /* AppDelegate.swift */,
 				82BC169C252DB80400148512 /* SceneDelegate.swift */,
 				82BC169E252DB80400148512 /* ContentView.swift */,
-				82BC16F7252DBE2F00148512 /* Helpers */,
-				82BC16B0252DB88F00148512 /* Project 1 */,
-				82BC16B5252DB90700148512 /* Project 2 */,
-				82BC16C0252DB95B00148512 /* Project 3 */,
-				82BC16C5252DB9BA00148512 /* Project 4 */,
-				82BC16CE252DBA7C00148512 /* Project 5 */,
-				82BC16D5252DBB4B00148512 /* Project 6 */,
-				82BC16DC252DBB9E00148512 /* Project 7 */,
-				82BC16DF252DBBE300148512 /* Project 8 */,
-				82BC16F0252DBC5000148512 /* Project 9 */,
-				82BC16F8252DC81F00148512 /* Project 10 */,
-				826FBA52252E14D7006F766D /* Project 11 */,
-				82148564252F2B3300BC60BC /* Project 12 */,
-				82E280CA2535A004006A18D4 /* Project 13 */,
-				82E280CF2535A0AA006A18D4 /* Project 14 */,
-				82E280D02535A0BA006A18D4 /* Project 15 */,
-				821CC8CC253EC29A005253AD /* Project 16 */,
-				820FCED1255AC3D400421D1C /* Project 17 */,
-				82625195255AD625009B0DD7 /* Project 18 */,
+				82571A2F25B8810200FB1F37 /* January */,
+				82571A2D25B880F300FB1F37 /* Learning */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -380,7 +399,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Cedric Bahirwe";
 				TargetAttributes = {
 					82BC1696252DB80400148512 = {
@@ -452,6 +471,7 @@
 				82BC16F6252DBC7100148512 /* Helper.swift in Sources */,
 				82BC16D3252DBA7D00148512 /* FloatingMenu.swift in Sources */,
 				82BC16D9252DBB4B00148512 /* DatePicker.swift in Sources */,
+				82571A3B25B8829400FB1F37 /* Project1.swift in Sources */,
 				82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */,
 				82BC169B252DB80400148512 /* AppDelegate.swift in Sources */,
 				82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */,
@@ -512,6 +532,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -572,6 +593,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

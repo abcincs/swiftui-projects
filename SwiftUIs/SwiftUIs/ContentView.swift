@@ -17,7 +17,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewLayout(.fixed(width: 816, height: 410))
+//            .previewLayout(.fixed(width: 816, height: 410))
     }
 }
 
