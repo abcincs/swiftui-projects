@@ -60,14 +60,14 @@ struct CrazyView: View {
             //            VStack(alignment: .leading, spacing: 10) {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20) {
-                    ForEach(0 ..< 18) { index in
+                    ForEach(0 ..< 5) { index in
                         
                         ZStack(alignment: .bottom) {
-                            Image("learn" + String(index))
+                            Image("learn\(index)")
                                 .resizable()
                                 .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-                            //                            .shadow(color: Color.black.opacity(0.6), radius: 10, x: 0, y: 10)
-                            
+                                                        .shadow(color: Color.black.opacity(0.6), radius: 10, x: 0, y: 10)
+//
                             VStack(alignment: .leading) {
                                 Text("This Law Could Make Google Accountable information")
                                     .font(.system(size: 22, weight: .regular, design: .rounded))
@@ -83,7 +83,7 @@ struct CrazyView: View {
                             .background(Color.white)
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                             .padding()
-                            
+//
                         }
                         .frame(width: 300)
                         

@@ -16,11 +16,13 @@ struct WhatsappStatus: View {
     @State private var isDragging = false
     @State private var isFull = false
     @State var dragAmount = CGSize.zero
+    @State private var radius: CGFloat = 300.0
     
     @State var binder = false
     let timer = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
     var body: some View {
         ZStack {
+            Color.gray.opacity(isDragging ? 0.7 : 0.0).edgesIgnoringSafeArea(.all)
             ZStack {
                 Circle()
                     .stroke(Color.green, style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round, dash: [n1,n2,n3], dashPhase: 3))
@@ -28,12 +30,13 @@ struct WhatsappStatus: View {
                     .rotationEffect(.degrees(-90))
                 Image("learn6")
                     .resizable()
-                    .frame(width: isFull ? 400 : 170, height: isFull ? 890 : 170)
-                    .applyClip(isNotCircle: $binder)
+                    .frame(width: isFull ? 415 : 170, height: isFull ? isDragging ? 400 : 920 : 170)
+                    .applyClip(radius: $radius)
                     .offset(self.dragAmount)
                     .onTapGesture {
                         if !self.isFull {
-                            withAnimation(Animation.spring().speed(0.3)) {
+                            withAnimation(.spring(response: 0.5, dampingFraction: 0.8, blendDuration: 0.5)) {
+                                radius = .zero
                                 self.isFull.toggle()
                                 self.binder = self.isFull && !self.isDragging
                             }
@@ -43,6 +46,7 @@ struct WhatsappStatus: View {
                     DragGesture()
                         .onChanged{ value in
                             if self.isFull {
+                                radius = 1000
                                 withAnimation {
                                     self.isDragging = true
                                     self.dragAmount = value.translation
@@ -73,6 +77,7 @@ struct WhatsappStatus: View {
                 self.n3 = CGFloat.random(in: 5...120)
             }
         }
+        
     }
 }
 
@@ -84,15 +89,11 @@ struct WhatsappStatus_Previews: PreviewProvider {
 
 struct RightClip: ViewModifier {
     
-    @Binding var isNotCircle: Bool
+    @Binding var radius: CGFloat
     func body(content: Content) -> some View {
         
         ZStack {
-            if isNotCircle {
-                content.clipShape(RoundedRectangle(cornerRadius: 1))
-            } else {
-                content.clipShape(Circle())
-            }
+            content.clipShape(RoundedRectangle(cornerRadius: radius))
         }
         
     }
@@ -100,7 +101,7 @@ struct RightClip: ViewModifier {
 
 
 extension View {
-    func applyClip(isNotCircle: Binding<Bool>) -> some View {
-        return modifier(RightClip(isNotCircle: isNotCircle))
+    func applyClip(radius: Binding<CGFloat>) -> some View {
+        return modifier(RightClip(radius: radius))
     }
 }

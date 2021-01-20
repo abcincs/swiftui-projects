@@ -69,7 +69,7 @@ struct ChatsView: View {
                         
                         VStack(alignment: .leading) {
                             HStack {
-                                Text("Candy I.")
+                                Text("Cedric Bhr")
                                     .font(.system(size: 12, weight: .semibold))
                                 Spacer()
                                 Text("6:00 PM")

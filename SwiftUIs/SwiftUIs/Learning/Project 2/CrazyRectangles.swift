@@ -16,6 +16,7 @@ struct CrazyRectangles: View {
                 Rectangle()
                     .fill(Color.green)
                     .frame(width: self.overlap > 0 ? 200 : 100, height: self.overlap > 0 ? 200 : 100)
+                    .clipShape(RoundedRectangle(cornerRadius: self.overlap > 0 ? 0 : 200))
                     .rotationEffect(Angle(degrees: self.overlap > 0 ? 360 : 0))
                     .zIndex(Double(self.overlap))
                 
@@ -23,8 +24,10 @@ struct CrazyRectangles: View {
                 Rectangle()
                     .fill(Color.red)
                     .frame(width: self.overlap > 0 ? 200 : 100, height: self.overlap > 0 ? 200 : 100)
+                    .clipShape(RoundedRectangle(cornerRadius: self.overlap > 0 ? 0 : 200))
                     .rotationEffect(Angle(degrees: self.overlap > 0 ? 360 : 0))
                     .zIndex(Double(-1 * self.overlap))
+                    
             }
             .onAppear {
                 let _ = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in

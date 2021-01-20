@@ -51,7 +51,9 @@ struct TwitterCharView: View {
                 }
             }
             TextField("", text: $text.onChange({ value in
-                self.progress = CGFloat(value.count)/280.0
+                withAnimation {
+                    self.progress = CGFloat(value.count)/280.0
+                }
             }))
                 .padding(10)
                 .background(Color.red.opacity(0.1))

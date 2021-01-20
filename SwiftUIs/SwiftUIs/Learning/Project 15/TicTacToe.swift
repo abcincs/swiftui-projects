@@ -103,9 +103,9 @@ struct TicTacToe: View {
           
         
         if case1 || case2 || case3 || case4 || case5 || case6 || case7 || case8 {
-            return (true, "Player Won!!")
+            return (true, "Check won the game!!!")
         } else if pcase1 || pcase2 || pcase3 || pcase4 || pcase5 || pcase6 || pcase7 || pcase8 {
-             return (true, "PC Won!!")
+             return (true, "Cross won the game!!!")
         } else {
              return (false, "No Winner!!")
         }
