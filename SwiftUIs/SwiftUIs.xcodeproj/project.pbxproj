@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
 		821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC8CD253EC2B1005253AD /* CedricView.swift */; };
+		82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2225B8A18A0069CB13 /* RectangleLoader.swift */; };
+		82227A2925B8A18A0069CB13 /* AlertFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2325B8A18A0069CB13 /* AlertFinishView.swift */; };
+		82227A2A25B8A18A0069CB13 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2425B8A18A0069CB13 /* AlertView.swift */; };
+		82227A2B25B8A18A0069CB13 /* RectangleFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2525B8A18A0069CB13 /* RectangleFieldView.swift */; };
+		82227A2C25B8A18A0069CB13 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2625B8A18A0069CB13 /* SessionsView.swift */; };
+		82227A2D25B8A18A0069CB13 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2725B8A18A0069CB13 /* RectangleView.swift */; };
 		824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E59B42535A2CC007F3330 /* AutoLoginView.swift */; };
 		82571A3B25B8829400FB1F37 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82571A3A25B8829400FB1F37 /* Project1.swift */; };
 		82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82625196255AD635009B0DD7 /* WhatsappStatus.swift */; };
@@ -61,6 +67,12 @@
 /* Begin PBXFileReference section */
 		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
 		821CC8CD253EC2B1005253AD /* CedricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedricView.swift; sourceTree = "<group>"; };
+		82227A2225B8A18A0069CB13 /* RectangleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLoader.swift; sourceTree = "<group>"; };
+		82227A2325B8A18A0069CB13 /* AlertFinishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertFinishView.swift; sourceTree = "<group>"; };
+		82227A2425B8A18A0069CB13 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		82227A2525B8A18A0069CB13 /* RectangleFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleFieldView.swift; sourceTree = "<group>"; };
+		82227A2625B8A18A0069CB13 /* SessionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		82227A2725B8A18A0069CB13 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		824E59B42535A2CC007F3330 /* AutoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginView.swift; sourceTree = "<group>"; };
 		82571A3A25B8829400FB1F37 /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 		82625196255AD635009B0DD7 /* WhatsappStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappStatus.swift; sourceTree = "<group>"; };
@@ -176,6 +188,12 @@
 		82571A2F25B8810200FB1F37 /* January */ = {
 			isa = PBXGroup;
 			children = (
+				82227A2325B8A18A0069CB13 /* AlertFinishView.swift */,
+				82227A2425B8A18A0069CB13 /* AlertView.swift */,
+				82227A2525B8A18A0069CB13 /* RectangleFieldView.swift */,
+				82227A2225B8A18A0069CB13 /* RectangleLoader.swift */,
+				82227A2725B8A18A0069CB13 /* RectangleView.swift */,
+				82227A2625B8A18A0069CB13 /* SessionsView.swift */,
 				82571A3A25B8829400FB1F37 /* Project1.swift */,
 			);
 			path = January;
@@ -454,6 +472,7 @@
 				82148568252F2B4B00BC60BC /* CloudView.swift in Sources */,
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
 				82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */,
+				82227A2C25B8A18A0069CB13 /* SessionsView.swift in Sources */,
 				826FBA58252E1F06006F766D /* ChatsView.swift in Sources */,
 				824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */,
 				82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */,
@@ -463,15 +482,18 @@
 				82BC16C7252DB9BA00148512 /* CrazyStarsVars.swift in Sources */,
 				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
 				82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */,
+				82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */,
 				82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */,
 				829E2EB32559785500C52B31 /* TwitterCharView.swift in Sources */,
 				82BC16DB252DBB4B00148512 /* CalendarView.swift in Sources */,
 				82BC16ED252DBBE300148512 /* CrazyPassCode.swift in Sources */,
+				82227A2B25B8A18A0069CB13 /* RectangleFieldView.swift in Sources */,
 				82E280CE2535A04B006A18D4 /* TabView.swift in Sources */,
 				82BC16F6252DBC7100148512 /* Helper.swift in Sources */,
 				82BC16D3252DBA7D00148512 /* FloatingMenu.swift in Sources */,
 				82BC16D9252DBB4B00148512 /* DatePicker.swift in Sources */,
 				82571A3B25B8829400FB1F37 /* Project1.swift in Sources */,
+				82227A2925B8A18A0069CB13 /* AlertFinishView.swift in Sources */,
 				82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */,
 				82BC169B252DB80400148512 /* AppDelegate.swift in Sources */,
 				82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */,
@@ -481,9 +503,11 @@
 				82E280CC2535A045006A18D4 /* Home.swift in Sources */,
 				82BC16BD252DB90700148512 /* GridStack.swift in Sources */,
 				82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */,
+				82227A2A25B8A18A0069CB13 /* AlertView.swift in Sources */,
 				82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */,
 				82BC16EA252DBBE300148512 /* CrazyZCards.swift in Sources */,
 				82B043EF253B54480066C526 /* TicTacToe.swift in Sources */,
+				82227A2D25B8A18A0069CB13 /* RectangleView.swift in Sources */,
 				82BC16C3252DB95B00148512 /* CrazyCharts.swift in Sources */,
 				82BC169F252DB80400148512 /* ContentView.swift in Sources */,
 				826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */,
