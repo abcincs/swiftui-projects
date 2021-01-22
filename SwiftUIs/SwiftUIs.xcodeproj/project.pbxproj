@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820F82F125BA713300C1650F /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F82F025BA713300C1650F /* Project2.swift */; };
 		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
 		821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC8CD253EC2B1005253AD /* CedricView.swift */; };
 		82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2225B8A18A0069CB13 /* RectangleLoader.swift */; };
@@ -65,6 +66,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		820F82F025BA713300C1650F /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
 		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
 		821CC8CD253EC2B1005253AD /* CedricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedricView.swift; sourceTree = "<group>"; };
 		82227A2225B8A18A0069CB13 /* RectangleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLoader.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				82227A2725B8A18A0069CB13 /* RectangleView.swift */,
 				82227A2625B8A18A0069CB13 /* SessionsView.swift */,
 				82571A3A25B8829400FB1F37 /* Project1.swift */,
+				820F82F025BA713300C1650F /* Project2.swift */,
 			);
 			path = January;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				82BC16E9252DBBE300148512 /* CharacterDetail.swift in Sources */,
 				82BC16B4252DB88F00148512 /* CrazyButton.swift in Sources */,
 				82BC16DA252DBB4B00148512 /* CrazyTab.swift in Sources */,
+				820F82F125BA713300C1650F /* Project2.swift in Sources */,
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
 				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
 				82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */,
