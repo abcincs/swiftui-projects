@@ -60,16 +60,6 @@ struct TwitterCharView: View {
                 .padding(10)
             
         }
-        //        .onReceive(timer) { value in
-        //            if self.progress < 1.0 {
-        //                withAnimation {
-        //                    self.count = String(format: "%.1f", self.progress)
-        //                    self.progress += 0.1
-        //                }
-        //            } else {
-        //                self.timer.upstream.connect().cancel()
-        //            }
-        //        }
     }
 }
 
