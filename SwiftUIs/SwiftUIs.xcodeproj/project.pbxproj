@@ -160,7 +160,6 @@
 		82571A2D25B880F300FB1F37 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
-				82BC16F7252DBE2F00148512 /* Helpers */,
 				82BC16B0252DB88F00148512 /* Project 1 */,
 				82BC16B5252DB90700148512 /* Project 2 */,
 				82BC16C0252DB95B00148512 /* Project 3 */,
@@ -218,6 +217,8 @@
 		82ADDBA225EE330300EDE545 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				82BC16C8252DB9DF00148512 /* CardTextView.swift */,
+				82BC16CA252DB9E900148512 /* code.mp3 */,
 				82ADDBA625EE359B00EDE545 /* JsonDecoder.swift */,
 				82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */,
 				82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */,
@@ -350,15 +351,6 @@
 				82BC16F2252DBC5000148512 /* CreditCardView.swift */,
 			);
 			path = "Project 9";
-			sourceTree = "<group>";
-		};
-		82BC16F7252DBE2F00148512 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				82BC16C8252DB9DF00148512 /* CardTextView.swift */,
-				82BC16CA252DB9E900148512 /* code.mp3 */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		82BC16F8252DC81F00148512 /* Project 10 */ = {

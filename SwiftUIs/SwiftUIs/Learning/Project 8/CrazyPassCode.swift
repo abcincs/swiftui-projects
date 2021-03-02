@@ -74,7 +74,7 @@ struct CrazyPassCode: View {
                         )
                         .onTapGesture {
                             if passCode.count < 6 {
-                                let code = ((columns * (row + 1)) + column + 1) - rows
+                                let code = indexFor(row, column)+1
                                 passCode.append(code)
                                 playSound()
                                 
