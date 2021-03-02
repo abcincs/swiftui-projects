@@ -15,24 +15,24 @@ struct CrazyRectangles: View {
             ZStack {
                 Rectangle()
                     .fill(Color.green)
-                    .frame(width: self.overlap > 0 ? 200 : 100, height: self.overlap > 0 ? 200 : 100)
-                    .clipShape(RoundedRectangle(cornerRadius: self.overlap > 0 ? 0 : 200))
-                    .rotationEffect(Angle(degrees: self.overlap > 0 ? 360 : 0))
-                    .zIndex(Double(self.overlap))
+                    .frame(width: overlap > 0 ? 200 : 100, height: overlap > 0 ? 200 : 100)
+                    .clipShape(RoundedRectangle(cornerRadius: overlap > 0 ? 0 : 200))
+                    .rotationEffect(Angle(degrees: overlap > 0 ? 360 : 0))
+                    .zIndex(Double(overlap))
                 
                 
                 Rectangle()
                     .fill(Color.red)
-                    .frame(width: self.overlap > 0 ? 200 : 100, height: self.overlap > 0 ? 200 : 100)
-                    .clipShape(RoundedRectangle(cornerRadius: self.overlap > 0 ? 0 : 200))
-                    .rotationEffect(Angle(degrees: self.overlap > 0 ? 360 : 0))
-                    .zIndex(Double(-1 * self.overlap))
+                    .frame(width: overlap > 0 ? 200 : 100, height: overlap > 0 ? 200 : 100)
+                    .clipShape(RoundedRectangle(cornerRadius: overlap > 0 ? 0 : 200))
+                    .rotationEffect(Angle(degrees: overlap > 0 ? 360 : 0))
+                    .zIndex(Double(-1 * overlap))
                     
             }
             .onAppear {
                 let _ = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
                     withAnimation(.spring(response: 01, dampingFraction: 0.5, blendDuration: 0)) {
-                        self.overlap *= -1
+                        overlap *= -1
                     }
                 }
             }

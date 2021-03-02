@@ -31,12 +31,10 @@ struct CrazyDrags: View {
                             }
                         }
                 )
-                
             }
         }
     }
 }
-
 
 struct CrazyDrags_Previews: PreviewProvider {
     static var previews: some View {
