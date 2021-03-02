@@ -9,6 +9,11 @@
 import Foundation
 import SwiftUI
 
+protocol FooterDelegate{
+    func didPressRightButton()
+    func didPressLeftButton()
+}
+
 struct CalendarView: UIViewControllerRepresentable {
     @Binding var selectedDate: Date
     @Binding var closeView: Bool
@@ -17,7 +22,7 @@ struct CalendarView: UIViewControllerRepresentable {
     var dimmedBackgroundView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = UIColor.black.withAlphaComponent(0.3)
+        view.backgroundColor = UIColor.white.withAlphaComponent(0.3)
         return view
     }()
     
@@ -35,29 +40,18 @@ struct CalendarView: UIViewControllerRepresentable {
     var headerView = CalendarPickerHeaderView(exitButtonTappedCompletionHandler: {
         print("I'm closed")
     })
-//    { [weak self] in
-//        guard let self = self else { return }
-//
-//        self.dismiss(animated: true)
-//    }
-    
-     var footerView = CalendarPickerFooterView(
-        didTapLastMonthCompletionHandler: {
-            print("This is the last month")
-        },
-        didTapNextMonthCompletionHandler: {
-            print("Go to next")
-    })
     
     // MARK: Calendar Data Values
-    
-    var baseDate: Date {
+    var baseDate = Date() {
         didSet {
             days = generateDaysInMonth(for: baseDate)
             collectionView.reloadData()
             headerView.baseDate = baseDate
         }
     }
+    
+    var footerView = CalendarPickerFooterView()
+    
     
     lazy var days = generateDaysInMonth(for: baseDate)
     
@@ -127,32 +121,32 @@ struct CalendarView: UIViewControllerRepresentable {
         
         collectionView.dataSource = context.coordinator
         collectionView.delegate = context.coordinator
-        headerView.baseDate = baseDate
-        
-        
+        headerView.baseDate = self.selectedDate
         
         return viewController
     }
     
-//    init(baseDate: Date, selectedDateChanged: @escaping ((Date) -> Void)) {
-//        self.selectedDate = baseDate
-//        self.baseDate = baseDate
-//        self.selectedDateChanged = selectedDateChanged
-//    }
-    
-    
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
-        
-        
+        print(selectedDate)
     }
     
-    class Coordinator: NSObject, UINavigationControllerDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    class Coordinator: NSObject, UINavigationControllerDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, FooterDelegate {
+        
+        private func changeMonth(by value: Int){
+            parent.baseDate = parent.calendar.date(
+            byAdding: .month,
+            value: value,
+            to: parent.baseDate
+            ) ?? parent.baseDate
+        }
+        
         
         var parent: CalendarView
         
-        
         init(_ parent: CalendarView) {
             self.parent = parent
+            super.init()
+            parent.footerView.delegate = self
         }
         
         func collectionView(
@@ -183,7 +177,8 @@ struct CalendarView: UIViewControllerRepresentable {
         ) {
             let day = parent.days[indexPath.row]
             parent.selectedDateChanged(day.date)
-            parent.presentationMode.wrappedValue.dismiss()
+            parent.baseDate = day.date
+//            parent.presentationMode.wrappedValue.dismiss()
         }
 
         func collectionView(
@@ -194,6 +189,15 @@ struct CalendarView: UIViewControllerRepresentable {
           let width = Int(collectionView.frame.width / 7)
             let height = Int(collectionView.frame.height) / parent.numberOfWeeksInBaseDate
           return CGSize(width: width, height: height)
+        }
+        
+        // CalendarView Footer delegate Stub
+        func didPressRightButton() {
+            self.changeMonth(by: 1)
+        }
+        
+        func didPressLeftButton() {
+            self.changeMonth(by: -1)
         }
         
     }
@@ -402,6 +406,7 @@ class CalendarPickerHeaderView: UIView {
     addSubview(closeButton)
     addSubview(dayOfWeekStackView)
     addSubview(separatorView)
+    closeButton.isHidden = true
 
     for dayNumber in 1...7 {
       let dayLabel = UILabel()
@@ -483,6 +488,7 @@ class CalendarPickerHeaderView: UIView {
 
 
 class CalendarPickerFooterView: UIView {
+    var delegate: FooterDelegate?
   lazy var separatorView: UIView = {
     let view = UIView()
     view.translatesAutoresizingMaskIntoConstraints = false
@@ -544,15 +550,7 @@ class CalendarPickerFooterView: UIView {
     return button
   }()
 
-  let didTapLastMonthCompletionHandler: (() -> Void)
-  let didTapNextMonthCompletionHandler: (() -> Void)
-
-  init(
-    didTapLastMonthCompletionHandler: @escaping (() -> Void),
-    didTapNextMonthCompletionHandler: @escaping (() -> Void)
-  ) {
-    self.didTapLastMonthCompletionHandler = didTapLastMonthCompletionHandler
-    self.didTapNextMonthCompletionHandler = didTapNextMonthCompletionHandler
+  init() {
 
     super.init(frame: CGRect.zero)
 
@@ -602,11 +600,11 @@ class CalendarPickerFooterView: UIView {
   }
 
   @objc func didTapPreviousMonthButton() {
-    didTapLastMonthCompletionHandler()
+    delegate?.didPressLeftButton()
   }
 
   @objc func didTapNextMonthButton() {
-    didTapNextMonthCompletionHandler()
+    delegate?.didPressRightButton()
   }
 }
 
@@ -674,7 +672,7 @@ class CalendarDateCollectionViewCell: UICollectionViewCell {
 
     // 1
     let size = traitCollection.horizontalSizeClass == .compact ?
-      min(min(frame.width, frame.height) - 10, 60) : 45
+      min(min(frame.width, frame.height), 60) : 45
 
     // 2
     NSLayoutConstraint.activate([

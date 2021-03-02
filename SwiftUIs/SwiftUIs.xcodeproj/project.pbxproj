@@ -43,11 +43,8 @@
 		82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C8252DB9DF00148512 /* CardTextView.swift */; };
 		82BC16CB252DB9E900148512 /* code.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82BC16CA252DB9E900148512 /* code.mp3 */; };
 		82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16CC252DBA5C00148512 /* CrazyCheckerBoard.swift */; };
-		82BC16D2252DBA7D00148512 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16CF252DBA7C00148512 /* FloatingButton.swift */; };
-		82BC16D3252DBA7D00148512 /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D0252DBA7C00148512 /* FloatingMenu.swift */; };
 		82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D1252DBA7C00148512 /* CustomTextView.swift */; };
 		82BC16D9252DBB4B00148512 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D6252DBB4B00148512 /* DatePicker.swift */; };
-		82BC16DA252DBB4B00148512 /* CrazyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D7252DBB4B00148512 /* CrazyTab.swift */; };
 		82BC16DB252DBB4B00148512 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D8252DBB4B00148512 /* CalendarView.swift */; };
 		82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16DD252DBB9E00148512 /* CrazyView.swift */; };
 		82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E0252DBBE300148512 /* ImageLoader.swift */; };
@@ -102,11 +99,8 @@
 		82BC16C8252DB9DF00148512 /* CardTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTextView.swift; sourceTree = "<group>"; };
 		82BC16CA252DB9E900148512 /* code.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = code.mp3; sourceTree = "<group>"; };
 		82BC16CC252DBA5C00148512 /* CrazyCheckerBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCheckerBoard.swift; sourceTree = "<group>"; };
-		82BC16CF252DBA7C00148512 /* FloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
-		82BC16D0252DBA7C00148512 /* FloatingMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
 		82BC16D1252DBA7C00148512 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		82BC16D6252DBB4B00148512 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
-		82BC16D7252DBB4B00148512 /* CrazyTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyTab.swift; sourceTree = "<group>"; };
 		82BC16D8252DBB4B00148512 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		82BC16DD252DBB9E00148512 /* CrazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyView.swift; sourceTree = "<group>"; };
 		82BC16E0252DBBE300148512 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
@@ -164,7 +158,6 @@
 				82BC16B5252DB90700148512 /* Project 2 */,
 				82BC16C0252DB95B00148512 /* Project 3 */,
 				82BC16C5252DB9BA00148512 /* Project 4 */,
-				82BC16CE252DBA7C00148512 /* Project 5 */,
 				82BC16D5252DBB4B00148512 /* Project 6 */,
 				82BC16DC252DBB9E00148512 /* Project 7 */,
 				82BC16DF252DBBE300148512 /* Project 8 */,
@@ -217,6 +210,7 @@
 		82ADDBA225EE330300EDE545 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				82BC16D1252DBA7C00148512 /* CustomTextView.swift */,
 				82BC16C8252DB9DF00148512 /* CardTextView.swift */,
 				82BC16CA252DB9E900148512 /* code.mp3 */,
 				82ADDBA625EE359B00EDE545 /* JsonDecoder.swift */,
@@ -304,21 +298,10 @@
 			path = "Project 4";
 			sourceTree = "<group>";
 		};
-		82BC16CE252DBA7C00148512 /* Project 5 */ = {
-			isa = PBXGroup;
-			children = (
-				82BC16CF252DBA7C00148512 /* FloatingButton.swift */,
-				82BC16D0252DBA7C00148512 /* FloatingMenu.swift */,
-				82BC16D1252DBA7C00148512 /* CustomTextView.swift */,
-			);
-			path = "Project 5";
-			sourceTree = "<group>";
-		};
 		82BC16D5252DBB4B00148512 /* Project 6 */ = {
 			isa = PBXGroup;
 			children = (
 				82BC16D6252DBB4B00148512 /* DatePicker.swift */,
-				82BC16D7252DBB4B00148512 /* CrazyTab.swift */,
 				82BC16D8252DBB4B00148512 /* CalendarView.swift */,
 			);
 			path = "Project 6";
@@ -461,7 +444,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BC16E9252DBBE300148512 /* CharacterDetail.swift in Sources */,
-				82BC16DA252DBB4B00148512 /* CrazyTab.swift in Sources */,
 				820F82F125BA713300C1650F /* Project2.swift in Sources */,
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
 				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
@@ -486,7 +468,6 @@
 				82BC16ED252DBBE300148512 /* CrazyPassCode.swift in Sources */,
 				82227A2B25B8A18A0069CB13 /* RectangleFieldView.swift in Sources */,
 				82E280CE2535A04B006A18D4 /* TabView.swift in Sources */,
-				82BC16D3252DBA7D00148512 /* FloatingMenu.swift in Sources */,
 				82BC16D9252DBB4B00148512 /* DatePicker.swift in Sources */,
 				82571A3B25B8829400FB1F37 /* Project1.swift in Sources */,
 				82227A2925B8A18A0069CB13 /* AlertFinishView.swift in Sources */,
@@ -508,7 +489,6 @@
 				8248DEA225EE40AF00AC0184 /* CrazyOverlays.swift in Sources */,
 				82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */,
 				82ADDB9425EE2BEE00EDE545 /* Extension+View.swift in Sources */,
-				82BC16D2252DBA7D00148512 /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

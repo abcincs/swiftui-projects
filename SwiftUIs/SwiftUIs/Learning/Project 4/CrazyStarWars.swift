@@ -25,12 +25,11 @@ struct CrazyStarWars: View {
                 .offset(y: -20)
                 .onReceive(timer) { _ in
                     withAnimation {
-                        if index > 900 {
-                            index = 0
-                        } else {
-                            index += 3
-                        }
-                    }                    
+                        index += 3
+                    }
+                    if index > 900 {
+                        index = 90
+                    }
                 }
         }
         .background(Color.black.edgesIgnoringSafeArea(.all))

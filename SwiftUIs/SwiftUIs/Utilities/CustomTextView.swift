@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-
+import UIKit
 
 struct CustomTextView: UIViewRepresentable {
     

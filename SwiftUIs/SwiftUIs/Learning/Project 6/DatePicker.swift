@@ -17,19 +17,13 @@ struct DatePickerView: View {
     
     var body: some View {
         VStack {
-            Button("Show Me Calendar") {
-                self.showCalendar.toggle()
-            }
-        }
-    
-        .sheet(isPresented: $showCalendar) {
-            CalendarView(selectedDate: self.$today, closeView: self.$showCalendar, baseDate: Date(), selectedDateChanged: {
-                 date in
-                self.today = date
-                print(self.today)
+            CalendarView(selectedDate: $today, closeView: $showCalendar, baseDate: Date(), selectedDateChanged: {
+                date in
+                today = date
+                print(today)
             })
-                .background(Color.red)
-                .edgesIgnoringSafeArea(.all)
+//            .background(Color.black)
+//            .edgesIgnoringSafeArea(.all)
         }
     }
 }
