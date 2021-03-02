@@ -23,6 +23,8 @@
 		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
 		826FBA58252E1F06006F766D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA57252E1F06006F766D /* ChatsView.swift */; };
 		829E2EB32559785500C52B31 /* TwitterCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E2EB22559785500C52B31 /* TwitterCharView.swift */; };
+		82ADDB9425EE2BEE00EDE545 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */; };
+		82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */; };
 		82B043EF253B54480066C526 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B043EE253B54480066C526 /* TicTacToe.swift */; };
 		82BC169B252DB80400148512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169A252DB80400148512 /* AppDelegate.swift */; };
 		82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169C252DB80400148512 /* SceneDelegate.swift */; };
@@ -52,7 +54,6 @@
 		82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16DD252DBB9E00148512 /* CrazyView.swift */; };
 		82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E0252DBBE300148512 /* ImageLoader.swift */; };
 		82BC16E9252DBBE300148512 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E1252DBBE300148512 /* CharacterDetail.swift */; };
-		82BC16EA252DBBE300148512 /* CrazyZCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E2252DBBE300148512 /* CrazyZCards.swift */; };
 		82BC16EB252DBBE300148512 /* avengers.json in Resources */ = {isa = PBXBuildFile; fileRef = 82BC16E3252DBBE300148512 /* avengers.json */; };
 		82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E4252DBBE300148512 /* CharacterView.swift */; };
 		82BC16ED252DBBE300148512 /* CrazyPassCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E5252DBBE300148512 /* CrazyPassCode.swift */; };
@@ -82,6 +83,8 @@
 		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
 		826FBA57252E1F06006F766D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 		829E2EB22559785500C52B31 /* TwitterCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCharView.swift; sourceTree = "<group>"; };
+		82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Colors.swift"; sourceTree = "<group>"; };
 		82B043EE253B54480066C526 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		82BC1697252DB80400148512 /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC169A252DB80400148512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +116,6 @@
 		82BC16DD252DBB9E00148512 /* CrazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyView.swift; sourceTree = "<group>"; };
 		82BC16E0252DBBE300148512 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		82BC16E1252DBBE300148512 /* CharacterDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
-		82BC16E2252DBBE300148512 /* CrazyZCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyZCards.swift; sourceTree = "<group>"; };
 		82BC16E3252DBBE300148512 /* avengers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = avengers.json; sourceTree = "<group>"; };
 		82BC16E4252DBBE300148512 /* CharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		82BC16E5252DBBE300148512 /* CrazyPassCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyPassCode.swift; sourceTree = "<group>"; };
@@ -241,6 +243,8 @@
 				82BC169A252DB80400148512 /* AppDelegate.swift */,
 				82BC169C252DB80400148512 /* SceneDelegate.swift */,
 				82BC169E252DB80400148512 /* ContentView.swift */,
+				82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */,
+				82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */,
 				82571A2F25B8810200FB1F37 /* January */,
 				82571A2D25B880F300FB1F37 /* Learning */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
@@ -331,7 +335,6 @@
 			children = (
 				82BC16E0252DBBE300148512 /* ImageLoader.swift */,
 				82BC16E1252DBBE300148512 /* CharacterDetail.swift */,
-				82BC16E2252DBBE300148512 /* CrazyZCards.swift */,
 				82BC16E3252DBBE300148512 /* avengers.json */,
 				82BC16E4252DBBE300148512 /* CharacterView.swift */,
 				82BC16E5252DBBE300148512 /* CrazyPassCode.swift */,
@@ -485,6 +488,7 @@
 				82BC16BB252DB90700148512 /* CrazyCircles.swift in Sources */,
 				82BC16C7252DB9BA00148512 /* CrazyStarsVars.swift in Sources */,
 				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
+				82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */,
 				82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */,
 				82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */,
 				82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */,
@@ -509,13 +513,13 @@
 				82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */,
 				82227A2A25B8A18A0069CB13 /* AlertView.swift in Sources */,
 				82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */,
-				82BC16EA252DBBE300148512 /* CrazyZCards.swift in Sources */,
 				82B043EF253B54480066C526 /* TicTacToe.swift in Sources */,
 				82227A2D25B8A18A0069CB13 /* RectangleView.swift in Sources */,
 				82BC16C3252DB95B00148512 /* CrazyCharts.swift in Sources */,
 				82BC169F252DB80400148512 /* ContentView.swift in Sources */,
 				826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */,
 				82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */,
+				82ADDB9425EE2BEE00EDE545 /* Extension+View.swift in Sources */,
 				82BC16D2252DBA7D00148512 /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
