@@ -57,8 +57,6 @@ struct AutoLogin: View {
     @State var password = ""
     @State var zIndex = 0
     
-    
-    
     var body: some View {
         GeometryReader { geometry in
             ZStack(alignment: .leading) {
@@ -99,18 +97,16 @@ struct AutoLogin: View {
                                 .padding(.top, 10)
                         }
                     }
-                    
                 }
             }
         }
         .viewIgnoreKeyboard()
-        
     }
 }
 
 
 extension AutoLogin {
-    var socialsView: some View {
+    private var socialsView: some View {
         VStack {
             HStack {
                 Color.gray.frame(height: 1)
@@ -140,7 +136,7 @@ extension AutoLogin {
         }
     }
     
-    var loginButton: some View {
+    private var loginButton: some View {
         Button(action: { }) {
             Text("Login")
                 .font(.system(size: 22, weight: .heavy))
@@ -154,7 +150,7 @@ extension AutoLogin {
         .frame(maxWidth: .infinity, alignment: .trailing)
     }
     
-    var loginForm: some View {
+    private var loginForm: some View {
         VStack {
             HStack(spacing: 10) {
                 blueColor
@@ -200,7 +196,7 @@ extension AutoLogin {
         }
     }
     
-    var viewHeader: some View {
+    private var viewHeader: some View {
         HStack(alignment: .bottom) {
             Text("Login")
                 .bold()
@@ -232,7 +228,7 @@ extension AutoLogin {
         }
     }
     
-    var circleSize: CGSize {
+    private var circleSize: CGSize {
         if isIphone {
             return CGSize(width: 200, height: 180)
         } else {
