@@ -47,7 +47,7 @@ struct RectangleFieldView: View {
 struct RectangleFieldView_Previews: PreviewProvider {
     static var previews: some View {
         RectangleFieldView()
-            .previewLayout(.fixed(width: 800, height: 400))
+//            .previewLayout(.fixed(width: 800, height: 400))
 
     }
 }

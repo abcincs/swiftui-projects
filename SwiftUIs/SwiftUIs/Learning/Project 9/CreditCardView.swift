@@ -16,15 +16,12 @@ struct CreditCardView: View {
         VStack {
             VStack(alignment: .leading, spacing: 0) {
                 Spacer()
-                Spacer()
-                Spacer()
-                Spacer()
                 Image("chip")
                     .resizable()
                     .frame(width: 50, height: 35)
                     .offset(x: 3, y: -2)
                 Spacer()
-                Text(self.text)
+                Text(text)
                     .font(.system(size: 18, weight: .semibold, design: .monospaced))
                     .foregroundColor(Color.white)
                     .padding(.leading, 8)
@@ -56,8 +53,8 @@ struct CreditCardView: View {
             .foregroundColor(Color.white)
             .padding()
             .padding(.leading)
-            .frame(width: 350, height: 250)
-            .background(RoundedRectangle(cornerRadius: 20).fill(self.text.isEmpty ? Color(red: 0.146, green: 0.183, blue: 0.22) : self.checkCard(number: self.text)))
+            .frame(width: 350, height: 200)
+            .background(RoundedRectangle(cornerRadius: 20).fill(text.isEmpty ? Color(red: 0.146, green: 0.183, blue: 0.22) : checkCard(number: text)))
             
             VStack {
                 CardTextView(text: $text)
@@ -68,7 +65,7 @@ struct CreditCardView: View {
     }
     
     func checkCard(number: String) -> Color {
-        var color = self.mainColor
+        var color = mainColor
         guard let cardNumber = Int(number.trimmingCharacters(in: .whitespaces)) else {
             print(number.trimmingCharacters(in: .whitespaces))
             return Color(red: 0.146, green: 0.183, blue: 0.22)

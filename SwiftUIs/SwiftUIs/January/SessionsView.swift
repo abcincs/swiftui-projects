@@ -99,6 +99,7 @@ struct SessionsView: View {
 
             }.frame(height: 140)
             
+            
         }
     }
 }
@@ -106,6 +107,6 @@ struct SessionsView: View {
 struct SessionsView_Previews: PreviewProvider {
     static var previews: some View {
         SessionsView()
-//            .previewLayout(.fixed(width: 800, height: 400))
+            .previewLayout(.fixed(width: 800, height: 400))
     }
 }

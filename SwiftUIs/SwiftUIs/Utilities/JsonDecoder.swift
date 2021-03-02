@@ -1,12 +1,12 @@
 //
-//  Helper.swift
-//  A small collection of quick helpers to avoid repeating the same old code.
+//  JsonDecoder.swift
+//  SwiftUIs
 //
-//  Created by Paul Hudson on 23/06/2019.
-//  Copyright © 2019 Hacking with Swift. All rights reserved.
+//  Created by Cédric Bahirwe on 02/03/2021.
+//  Copyright © 2021 Cedric Bahirwe. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 extension Bundle {
     func decode<T: Decodable>(_ type: T.Type, from file: String) -> T {
