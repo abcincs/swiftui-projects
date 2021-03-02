@@ -1,20 +1,19 @@
 //
-//  CrazyHStack.swift
-//  SwiftUIExamples
+//  CrazyOverlays.swift
+//  SwiftUIs
 //
-//  Created by Cedric Bahirwe on 8/31/20.
-//  Copyright © 2020 Cedric Bahirwe. All rights reserved.
+//  Created by Cédric Bahirwe on 02/03/2021.
+//  Copyright © 2021 Cedric Bahirwe. All rights reserved.
 //
 
 import SwiftUI
 
-struct CrazyHStack: View {
-    
-    var images = [ "cheese-toastie-thumb", "fresh-baked-croissant-thumb" , "mushroom-tagliatelle-thumb" , "porridge-deluxe-thumb" , "stack-o-pancakes-thumb", "veggie-pizza-thumb" ]
+struct CrazyOverlays: View {
+    private var images = [ "cheese-toastie-thumb", "fresh-baked-croissant-thumb" , "mushroom-tagliatelle-thumb" , "porridge-deluxe-thumb" , "stack-o-pancakes-thumb", "veggie-pizza-thumb" ]
     var body: some View {
         HStack(spacing: 0) {
-            ForEach(0 ..< self.images.count ) {
-                Image(self.images[$0])
+            ForEach(0 ..< images.count ) {
+                Image(images[$0])
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 40, height: 40)
@@ -30,9 +29,8 @@ struct CrazyHStack: View {
     }
 }
 
-
-struct CrazyHStack_Previews: PreviewProvider {
+struct CrazyOverlays_Previews: PreviewProvider {
     static var previews: some View {
-        CrazyHStack()
+        CrazyOverlays()
     }
 }

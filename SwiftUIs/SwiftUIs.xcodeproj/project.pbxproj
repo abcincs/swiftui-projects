@@ -16,6 +16,7 @@
 		82227A2B25B8A18A0069CB13 /* RectangleFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2525B8A18A0069CB13 /* RectangleFieldView.swift */; };
 		82227A2C25B8A18A0069CB13 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2625B8A18A0069CB13 /* SessionsView.swift */; };
 		82227A2D25B8A18A0069CB13 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2725B8A18A0069CB13 /* RectangleView.swift */; };
+		8248DEA225EE40AF00AC0184 /* CrazyOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248DEA125EE40AF00AC0184 /* CrazyOverlays.swift */; };
 		824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E59B42535A2CC007F3330 /* AutoLoginView.swift */; };
 		82571A3B25B8829400FB1F37 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82571A3A25B8829400FB1F37 /* Project1.swift */; };
 		82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82625196255AD635009B0DD7 /* WhatsappStatus.swift */; };
@@ -38,7 +39,6 @@
 		82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16B9252DB90700148512 /* CrazyDrags.swift */; };
 		82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16BA252DB90700148512 /* CrazyCards.swift */; };
 		82BC16C3252DB95B00148512 /* CrazyCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C1252DB95B00148512 /* CrazyCharts.swift */; };
-		82BC16C4252DB95B00148512 /* CrazyHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C2252DB95B00148512 /* CrazyHStack.swift */; };
 		82BC16C7252DB9BA00148512 /* CrazyStarsVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C6252DB9BA00148512 /* CrazyStarsVars.swift */; };
 		82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C8252DB9DF00148512 /* CardTextView.swift */; };
 		82BC16CB252DB9E900148512 /* code.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82BC16CA252DB9E900148512 /* code.mp3 */; };
@@ -73,6 +73,7 @@
 		82227A2525B8A18A0069CB13 /* RectangleFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleFieldView.swift; sourceTree = "<group>"; };
 		82227A2625B8A18A0069CB13 /* SessionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
 		82227A2725B8A18A0069CB13 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		8248DEA125EE40AF00AC0184 /* CrazyOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyOverlays.swift; sourceTree = "<group>"; };
 		824E59B42535A2CC007F3330 /* AutoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginView.swift; sourceTree = "<group>"; };
 		82571A3A25B8829400FB1F37 /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 		82625196255AD635009B0DD7 /* WhatsappStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappStatus.swift; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		82BC16B9252DB90700148512 /* CrazyDrags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyDrags.swift; sourceTree = "<group>"; };
 		82BC16BA252DB90700148512 /* CrazyCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCards.swift; sourceTree = "<group>"; };
 		82BC16C1252DB95B00148512 /* CrazyCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCharts.swift; sourceTree = "<group>"; };
-		82BC16C2252DB95B00148512 /* CrazyHStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyHStack.swift; sourceTree = "<group>"; };
 		82BC16C6252DB9BA00148512 /* CrazyStarsVars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyStarsVars.swift; sourceTree = "<group>"; };
 		82BC16C8252DB9DF00148512 /* CardTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTextView.swift; sourceTree = "<group>"; };
 		82BC16CA252DB9E900148512 /* code.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = code.mp3; sourceTree = "<group>"; };
@@ -290,7 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				82BC16C1252DB95B00148512 /* CrazyCharts.swift */,
-				82BC16C2252DB95B00148512 /* CrazyHStack.swift */,
+				8248DEA125EE40AF00AC0184 /* CrazyOverlays.swift */,
 			);
 			path = "Project 3";
 			sourceTree = "<group>";
@@ -493,7 +493,6 @@
 				82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */,
 				82BC169B252DB80400148512 /* AppDelegate.swift in Sources */,
 				82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */,
-				82BC16C4252DB95B00148512 /* CrazyHStack.swift in Sources */,
 				82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */,
 				82ADDBA725EE359B00EDE545 /* JsonDecoder.swift in Sources */,
 				82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */,
@@ -506,6 +505,7 @@
 				82BC16C3252DB95B00148512 /* CrazyCharts.swift in Sources */,
 				82BC169F252DB80400148512 /* ContentView.swift in Sources */,
 				826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */,
+				8248DEA225EE40AF00AC0184 /* CrazyOverlays.swift in Sources */,
 				82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */,
 				82ADDB9425EE2BEE00EDE545 /* Extension+View.swift in Sources */,
 				82BC16D2252DBA7D00148512 /* FloatingButton.swift in Sources */,

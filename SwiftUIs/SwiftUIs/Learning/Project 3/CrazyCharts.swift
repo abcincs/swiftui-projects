@@ -8,6 +8,12 @@
 
 import SwiftUI
 
+public struct Chart: Identifiable {
+    public let id = UUID()
+    var width: Int
+    var height: Int
+    var color: Color
+}
 struct CrazyCharts: View {
     var body: some View {
         ZStack {

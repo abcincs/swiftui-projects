@@ -9,15 +9,27 @@
 import SwiftUI
 
 struct CrazyCheckerBoardView: View {
+    
+    @State private var rows = 10
+    @State private var columns = 10
+    
     var body: some View {
-        CrazyCheckerBoard(rows: 10, columns: 10)
+        CrazyCheckerBoard(rows: rows, columns: columns)
             .fill(LinearGradient(gradient: Gradient(colors: [.black, .red, .black]), startPoint: .top, endPoint: .bottom))
             .frame(width: 250, height: 250)
+            .onReceive(Timer.publish(every: 0.5, on: .main, in: .common).autoconnect(), perform: { _ in
+                let randomR = Int.random(in: 3...15)
+                let randomC = Int.random(in: 4...18)
+                withAnimation {
+                    rows = randomR
+                    columns = randomC
+                }
+            })
     }
 }
 
 
-struct CrazyCheckerBoard: Shape {
+fileprivate struct CrazyCheckerBoard: Shape {
     
     let rows: Int
     let columns: Int
