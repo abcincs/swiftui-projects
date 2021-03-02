@@ -26,9 +26,11 @@ struct CustomTextView: UIViewRepresentable {
         uiView.font = UIFont.systemFont(ofSize: 50, weight: .semibold)
         uiView.textColor = .brown
         uiView.textAlignment = .justified
+        uiView.isEditable = false
+        uiView.isSelectable = false
         uiView.backgroundColor = UIColor.clear
         UIView.animate(withDuration: 0.2) {
-            uiView.scrollRangeToVisible(NSRange(location: 220, length: self.textRange))
+            uiView.scrollRangeToVisible(NSRange(location: 220, length: textRange))
         }
         uiView.text = text
     }

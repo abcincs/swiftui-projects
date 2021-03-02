@@ -17,6 +17,7 @@
 		82227A2C25B8A18A0069CB13 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2625B8A18A0069CB13 /* SessionsView.swift */; };
 		82227A2D25B8A18A0069CB13 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2725B8A18A0069CB13 /* RectangleView.swift */; };
 		8248DEA225EE40AF00AC0184 /* CrazyOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248DEA125EE40AF00AC0184 /* CrazyOverlays.swift */; };
+		8248DEAA25EE468500AC0184 /* CrazyStarWars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248DEA925EE468500AC0184 /* CrazyStarWars.swift */; };
 		824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E59B42535A2CC007F3330 /* AutoLoginView.swift */; };
 		82571A3B25B8829400FB1F37 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82571A3A25B8829400FB1F37 /* Project1.swift */; };
 		82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82625196255AD635009B0DD7 /* WhatsappStatus.swift */; };
@@ -39,7 +40,6 @@
 		82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16B9252DB90700148512 /* CrazyDrags.swift */; };
 		82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16BA252DB90700148512 /* CrazyCards.swift */; };
 		82BC16C3252DB95B00148512 /* CrazyCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C1252DB95B00148512 /* CrazyCharts.swift */; };
-		82BC16C7252DB9BA00148512 /* CrazyStarsVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C6252DB9BA00148512 /* CrazyStarsVars.swift */; };
 		82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16C8252DB9DF00148512 /* CardTextView.swift */; };
 		82BC16CB252DB9E900148512 /* code.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82BC16CA252DB9E900148512 /* code.mp3 */; };
 		82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16CC252DBA5C00148512 /* CrazyCheckerBoard.swift */; };
@@ -74,6 +74,7 @@
 		82227A2625B8A18A0069CB13 /* SessionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
 		82227A2725B8A18A0069CB13 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8248DEA125EE40AF00AC0184 /* CrazyOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyOverlays.swift; sourceTree = "<group>"; };
+		8248DEA925EE468500AC0184 /* CrazyStarWars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyStarWars.swift; sourceTree = "<group>"; };
 		824E59B42535A2CC007F3330 /* AutoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginView.swift; sourceTree = "<group>"; };
 		82571A3A25B8829400FB1F37 /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 		82625196255AD635009B0DD7 /* WhatsappStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappStatus.swift; sourceTree = "<group>"; };
@@ -98,7 +99,6 @@
 		82BC16B9252DB90700148512 /* CrazyDrags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyDrags.swift; sourceTree = "<group>"; };
 		82BC16BA252DB90700148512 /* CrazyCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCards.swift; sourceTree = "<group>"; };
 		82BC16C1252DB95B00148512 /* CrazyCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCharts.swift; sourceTree = "<group>"; };
-		82BC16C6252DB9BA00148512 /* CrazyStarsVars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyStarsVars.swift; sourceTree = "<group>"; };
 		82BC16C8252DB9DF00148512 /* CardTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTextView.swift; sourceTree = "<group>"; };
 		82BC16CA252DB9E900148512 /* code.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = code.mp3; sourceTree = "<group>"; };
 		82BC16CC252DBA5C00148512 /* CrazyCheckerBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCheckerBoard.swift; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				82BC16CC252DBA5C00148512 /* CrazyCheckerBoard.swift */,
-				82BC16C6252DB9BA00148512 /* CrazyStarsVars.swift */,
+				8248DEA925EE468500AC0184 /* CrazyStarWars.swift */,
 			);
 			path = "Project 4";
 			sourceTree = "<group>";
@@ -475,9 +475,9 @@
 				82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */,
 				826FBA56252E1502006F766D /* InstaKilo.swift in Sources */,
 				82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */,
-				82BC16C7252DB9BA00148512 /* CrazyStarsVars.swift in Sources */,
 				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
 				82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */,
+				8248DEAA25EE468500AC0184 /* CrazyStarWars.swift in Sources */,
 				82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */,
 				82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */,
 				82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */,
