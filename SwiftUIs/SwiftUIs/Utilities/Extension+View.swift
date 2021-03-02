@@ -32,6 +32,13 @@ struct GridStack<Content: View>: View {
     }
 }
 
+
+extension GridStack {
+    public func indexFor(_ row: Int, _ column: Int, colCount: Int = 3) -> Int {
+        return  row * colCount + column
+    }
+}
+
 struct RoundedCorner: Shape {
     
     var radius: CGFloat = .infinity
