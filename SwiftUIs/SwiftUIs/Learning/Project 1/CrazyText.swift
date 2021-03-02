@@ -13,7 +13,14 @@ struct CrazyText: View {
     @State var animate = false
     @State var speed: Float = 1.0
     var body: some View {
-        Text("")
+        Text("""
+            
+            asfioasofjasofjoasijfoaisjfoasifoasifnoasfasfnaosifuhasfnas\nasfuashfoasfio
+            asfioasofjasofjoasijfoaisjfoasifoasifnoasfasfnaosifuhasfnas\nasfuashfoasfio
+            asfioasofjasofjoasijfoaisjfoasifoasifnoasfasfnaosifuhasfnas\nasfuashfoasfio
+            asfioasofjasofjoasijfoaisjfoasifoasifnoasfasfnaosifuhasfnas\nasfuashfoasfio
+            asfioasofjasofjoasijfoaisjfoasifoasifnoasfasfnaosifuhasfnas\nasfuashfoasfio
+            """)
             .padding()
             .padding()
             
@@ -24,9 +31,6 @@ struct CrazyText: View {
             .rotationEffect(Angle(degrees: self.animate ? 360 : 0))
             
             .animation(Animation.linear(duration: Double(self.speed)).repeatForever(autoreverses: false))
-            //                .rotationEffect(self.animate ? 360 : 0)
-            //                . background(RadialGradient(gradient: Gradient(colors: [.red, .white, .green]), center: .ce, startRadius: 10, endRadius: 25))
-            //            .background(LinearGradient(gradient: Gradient(colors: [.white, .black]), startPoint: .top, endPoint: .bottom))
             .clipShape(Circle())
         .onAppear {
             self.animate.toggle()

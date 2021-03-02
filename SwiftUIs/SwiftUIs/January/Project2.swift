@@ -8,8 +8,7 @@
 
 import SwiftUI
 
-
-// Kahoot loader concept
+// Kahoot loader UI
 struct Project2:View {
     @State var offSetR: CGSize = .init(width: -90, height: -90)
     @State var offSetG: CGSize = .init(width: 0, height: -90)
@@ -20,41 +19,16 @@ struct Project2:View {
         ZStack{
             Color.black.edgesIgnoringSafeArea(.all)
             ZStack {
-                Image(systemName: "triangle.fill")
-                    .resizable()
-                    .padding()
-                    .foregroundColor(.white)
-                    .frame(width: 80, height: 80)
-                    .background(Color.red)
-                    .cornerRadius(8)
+                SImage("triangle.fill", bgColor: .red)
                     .offset(offSetR)
                 
-                Image(systemName: "suit.diamond.fill")
-                    .resizable()
-                    .padding()
-                    .foregroundColor(.white)
-                    .frame(width: 80, height: 80)
-                    .background(Color.green)
-                    .cornerRadius(8)
+                SImage("suit.diamond.fill", bgColor: .green)
                     .offset(offSetG)
                 
-                Image(systemName:"rectangle.fill")
-                    .resizable()
-                    .padding()
-                    .padding(5)
-                    .foregroundColor(.white)
-                    .frame(width: 80, height: 80)
-                    .background(Color.orange)
-                    .cornerRadius(8)
+                SImage("rectangle.fill", bgColor: .orange)
                     .offset(offSetZ)
-                
-                Image(systemName: "circle.fill")
-                    .resizable()
-                    .padding()
-                    .foregroundColor(.white)
-                    .frame(width: 80, height: 80)
-                    .background(Color.blue)
-                    .cornerRadius(8)
+
+                SImage("circle.fill", bgColor: .blue)
                     .offset(offSetB)
             }
             .offset(x: 45, y: 45)
@@ -63,6 +37,16 @@ struct Project2:View {
         
     }
     
+    
+    private func SImage(_ image: String, bgColor: Color) -> some View {
+        return Image(systemName: image)
+            .resizable()
+            .padding()
+            .foregroundColor(.white)
+            .frame(width: 80, height: 80)
+            .background(bgColor)
+            .cornerRadius(8)
+    }
     
     func animate() {
         let _ = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in

@@ -25,6 +25,7 @@
 		829E2EB32559785500C52B31 /* TwitterCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E2EB22559785500C52B31 /* TwitterCharView.swift */; };
 		82ADDB9425EE2BEE00EDE545 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */; };
 		82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */; };
+		82ADDBA725EE359B00EDE545 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADDBA625EE359B00EDE545 /* JsonDecoder.swift */; };
 		82B043EF253B54480066C526 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B043EE253B54480066C526 /* TicTacToe.swift */; };
 		82BC169B252DB80400148512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169A252DB80400148512 /* AppDelegate.swift */; };
 		82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC169C252DB80400148512 /* SceneDelegate.swift */; };
@@ -33,7 +34,6 @@
 		82BC16A4252DB80500148512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BC16A3252DB80500148512 /* Preview Assets.xcassets */; };
 		82BC16A7252DB80500148512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BC16A5252DB80500148512 /* LaunchScreen.storyboard */; };
 		82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16B1252DB88F00148512 /* CrazyText.swift */; };
-		82BC16B4252DB88F00148512 /* CrazyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16B2252DB88F00148512 /* CrazyButton.swift */; };
 		82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16B7252DB90700148512 /* CrazyRectangles.swift */; };
 		82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16B9252DB90700148512 /* CrazyDrags.swift */; };
 		82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16BA252DB90700148512 /* CrazyCards.swift */; };
@@ -58,7 +58,6 @@
 		82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E6252DBBE300148512 /* CrazyHome.swift */; };
 		82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E7252DBBE300148512 /* CrazyAudioMack.swift */; };
 		82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F2252DBC5000148512 /* CreditCardView.swift */; };
-		82BC16F6252DBC7100148512 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F5252DBC7100148512 /* Helper.swift */; };
 		82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F9252DC83400148512 /* CrazyScroll.swift */; };
 		82E280CC2535A045006A18D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CB2535A045006A18D4 /* Home.swift */; };
 		82E280CE2535A04B006A18D4 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CD2535A04B006A18D4 /* TabView.swift */; };
@@ -83,6 +82,7 @@
 		829E2EB22559785500C52B31 /* TwitterCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCharView.swift; sourceTree = "<group>"; };
 		82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 		82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Colors.swift"; sourceTree = "<group>"; };
+		82ADDBA625EE359B00EDE545 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
 		82B043EE253B54480066C526 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		82BC1697252DB80400148512 /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC169A252DB80400148512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,7 +93,6 @@
 		82BC16A6252DB80500148512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82BC16A8252DB80500148512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82BC16B1252DB88F00148512 /* CrazyText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyText.swift; sourceTree = "<group>"; };
-		82BC16B2252DB88F00148512 /* CrazyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyButton.swift; sourceTree = "<group>"; };
 		82BC16B7252DB90700148512 /* CrazyRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyRectangles.swift; sourceTree = "<group>"; };
 		82BC16B9252DB90700148512 /* CrazyDrags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyDrags.swift; sourceTree = "<group>"; };
 		82BC16BA252DB90700148512 /* CrazyCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCards.swift; sourceTree = "<group>"; };
@@ -118,7 +117,6 @@
 		82BC16E6252DBBE300148512 /* CrazyHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyHome.swift; sourceTree = "<group>"; };
 		82BC16E7252DBBE300148512 /* CrazyAudioMack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyAudioMack.swift; sourceTree = "<group>"; };
 		82BC16F2252DBC5000148512 /* CreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
-		82BC16F5252DBC7100148512 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		82BC16F9252DC83400148512 /* CrazyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyScroll.swift; sourceTree = "<group>"; };
 		82E280CB2535A045006A18D4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		82E280CD2535A04B006A18D4 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
@@ -220,6 +218,7 @@
 		82ADDBA225EE330300EDE545 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				82ADDBA625EE359B00EDE545 /* JsonDecoder.swift */,
 				82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */,
 				82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */,
 				82BC16E0252DBBE300148512 /* ImageLoader.swift */,
@@ -272,7 +271,6 @@
 			isa = PBXGroup;
 			children = (
 				82BC16B1252DB88F00148512 /* CrazyText.swift */,
-				82BC16B2252DB88F00148512 /* CrazyButton.swift */,
 			);
 			path = "Project 1";
 			sourceTree = "<group>";
@@ -357,7 +355,6 @@
 		82BC16F7252DBE2F00148512 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				82BC16F5252DBC7100148512 /* Helper.swift */,
 				82BC16C8252DB9DF00148512 /* CardTextView.swift */,
 				82BC16CA252DB9E900148512 /* code.mp3 */,
 			);
@@ -472,7 +469,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BC16E9252DBBE300148512 /* CharacterDetail.swift in Sources */,
-				82BC16B4252DB88F00148512 /* CrazyButton.swift in Sources */,
 				82BC16DA252DBB4B00148512 /* CrazyTab.swift in Sources */,
 				820F82F125BA713300C1650F /* Project2.swift in Sources */,
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
@@ -498,7 +494,6 @@
 				82BC16ED252DBBE300148512 /* CrazyPassCode.swift in Sources */,
 				82227A2B25B8A18A0069CB13 /* RectangleFieldView.swift in Sources */,
 				82E280CE2535A04B006A18D4 /* TabView.swift in Sources */,
-				82BC16F6252DBC7100148512 /* Helper.swift in Sources */,
 				82BC16D3252DBA7D00148512 /* FloatingMenu.swift in Sources */,
 				82BC16D9252DBB4B00148512 /* DatePicker.swift in Sources */,
 				82571A3B25B8829400FB1F37 /* Project1.swift in Sources */,
@@ -508,6 +503,7 @@
 				82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */,
 				82BC16C4252DB95B00148512 /* CrazyHStack.swift in Sources */,
 				82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */,
+				82ADDBA725EE359B00EDE545 /* JsonDecoder.swift in Sources */,
 				82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */,
 				82E280CC2535A045006A18D4 /* Home.swift in Sources */,
 				82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */,

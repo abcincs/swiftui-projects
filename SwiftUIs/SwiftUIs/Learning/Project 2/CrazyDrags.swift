@@ -17,17 +17,17 @@ struct CrazyDrags: View {
                     .fill(LinearGradient(gradient: Gradient(colors: [.yellow, .red]), startPoint: .topLeading, endPoint: .bottomTrailing))
                     .frame(width: 300, height: 200)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
-                    .rotation3DEffect(.degrees(-Double(self.dragAmount.width) / 20), axis: (x: 0,y: 1,z: 0))
-                    .rotation3DEffect(.degrees(-Double(self.dragAmount.height) / 20), axis: (x: 1,y: 0,z: 0))
-                    .offset(self.dragAmount)
+                    .rotation3DEffect(.degrees(-Double(dragAmount.width) / 20), axis: (x: 0,y: 1,z: 0))
+                    .rotation3DEffect(.degrees(-Double(dragAmount.height) / 20), axis: (x: 1,y: 0,z: 0))
+                    .offset(dragAmount)
                     .gesture(
                         DragGesture()
                             .onChanged {
-                                self.dragAmount = $0.translation
+                                dragAmount = $0.translation
                         }
                         .onEnded {_ in
                             withAnimation(.spring()) {
-                                self.dragAmount = .zero
+                                dragAmount = .zero
                             }
                         }
                 )

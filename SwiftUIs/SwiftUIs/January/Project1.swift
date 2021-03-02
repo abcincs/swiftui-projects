@@ -35,7 +35,7 @@ struct Project1: View {
         }
         .onTapGesture {
             withAnimation(.spring(response: 0.5, dampingFraction: 0.8, blendDuration: 0.3)) {
-                self.rotate.toggle()
+                rotate.toggle()
             }
         }
     }
