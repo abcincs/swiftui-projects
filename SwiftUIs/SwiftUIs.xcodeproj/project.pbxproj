@@ -219,6 +219,16 @@
 			path = "Project 11";
 			sourceTree = "<group>";
 		};
+		82ADDBA225EE330300EDE545 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */,
+				82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */,
+				82BC16E0252DBBE300148512 /* ImageLoader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		82BC168E252DB80400148512 = {
 			isa = PBXGroup;
 			children = (
@@ -241,8 +251,7 @@
 				82BC169A252DB80400148512 /* AppDelegate.swift */,
 				82BC169C252DB80400148512 /* SceneDelegate.swift */,
 				82BC169E252DB80400148512 /* ContentView.swift */,
-				82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */,
-				82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */,
+				82ADDBA225EE330300EDE545 /* Utilities */,
 				82571A2F25B8810200FB1F37 /* January */,
 				82571A2D25B880F300FB1F37 /* Learning */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
@@ -330,7 +339,6 @@
 		82BC16DF252DBBE300148512 /* Project 8 */ = {
 			isa = PBXGroup;
 			children = (
-				82BC16E0252DBBE300148512 /* ImageLoader.swift */,
 				82BC16E1252DBBE300148512 /* CharacterDetail.swift */,
 				82BC16E3252DBBE300148512 /* avengers.json */,
 				82BC16E4252DBBE300148512 /* CharacterView.swift */,

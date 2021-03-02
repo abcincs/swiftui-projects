@@ -10,22 +10,21 @@ import SwiftUI
 
 
 struct CrazyCards: View {
-//    var fillColor = Color(red: Double.random(in: 0...1), green: Double.random(in: 0...1), blue: Double.random(in: 0...1))
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 0) {
-                ForEach(0..<10)   { num  in
+                ForEach(0..<20)   { num  in
                     VStack {
                         GeometryReader { geo in
                             RoundedRectangle(cornerRadius: 30)
                                 .fill(Color(red: Double.random(in: 0...1), green: Double.random(in: 0...1), blue: Double.random(in: 0...1)))
                                 .frame(width: 150, height: 150)
                                 .padding()
-                            
-                                
                                 .rotation3DEffect(.degrees(-Double(geo.frame(in: .global).minX)), axis: (0,1,0))
-                            //                                .rotationEffect(.degrees(-Double(geo.frame(in: .global).minX)))
+                                .animation(.spring(response: 0.5, dampingFraction: 0.5))
+                              
+                                //.rotationEffect(.degrees(-Double(geo.frame(in: .global).minX)))
                         }
                     }
                     .frame(width: 50)
