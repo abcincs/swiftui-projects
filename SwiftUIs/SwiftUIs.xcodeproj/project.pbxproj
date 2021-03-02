@@ -46,7 +46,6 @@
 		82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D1252DBA7C00148512 /* CustomTextView.swift */; };
 		82BC16D9252DBB4B00148512 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D6252DBB4B00148512 /* DatePicker.swift */; };
 		82BC16DB252DBB4B00148512 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16D8252DBB4B00148512 /* CalendarView.swift */; };
-		82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16DD252DBB9E00148512 /* CrazyView.swift */; };
 		82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E0252DBBE300148512 /* ImageLoader.swift */; };
 		82BC16E9252DBBE300148512 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E1252DBBE300148512 /* CharacterDetail.swift */; };
 		82BC16EB252DBBE300148512 /* avengers.json in Resources */ = {isa = PBXBuildFile; fileRef = 82BC16E3252DBBE300148512 /* avengers.json */; };
@@ -102,7 +101,6 @@
 		82BC16D1252DBA7C00148512 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		82BC16D6252DBB4B00148512 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		82BC16D8252DBB4B00148512 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		82BC16DD252DBB9E00148512 /* CrazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyView.swift; sourceTree = "<group>"; };
 		82BC16E0252DBBE300148512 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		82BC16E1252DBBE300148512 /* CharacterDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
 		82BC16E3252DBBE300148512 /* avengers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = avengers.json; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 				82BC16C0252DB95B00148512 /* Project 3 */,
 				82BC16C5252DB9BA00148512 /* Project 4 */,
 				82BC16D5252DBB4B00148512 /* Project 6 */,
-				82BC16DC252DBB9E00148512 /* Project 7 */,
 				82BC16DF252DBBE300148512 /* Project 8 */,
 				82BC16F0252DBC5000148512 /* Project 9 */,
 				82BC16F8252DC81F00148512 /* Project 10 */,
@@ -305,14 +302,6 @@
 				82BC16D8252DBB4B00148512 /* CalendarView.swift */,
 			);
 			path = "Project 6";
-			sourceTree = "<group>";
-		};
-		82BC16DC252DBB9E00148512 /* Project 7 */ = {
-			isa = PBXGroup;
-			children = (
-				82BC16DD252DBB9E00148512 /* CrazyView.swift */,
-			);
-			path = "Project 7";
 			sourceTree = "<group>";
 		};
 		82BC16DF252DBBE300148512 /* Project 8 */ = {
@@ -478,7 +467,6 @@
 				82ADDBA725EE359B00EDE545 /* JsonDecoder.swift in Sources */,
 				82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */,
 				82E280CC2535A045006A18D4 /* Home.swift in Sources */,
-				82BC16DE252DBB9E00148512 /* CrazyView.swift in Sources */,
 				82227A2A25B8A18A0069CB13 /* AlertView.swift in Sources */,
 				82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */,
 				82B043EF253B54480066C526 /* TicTacToe.swift in Sources */,
