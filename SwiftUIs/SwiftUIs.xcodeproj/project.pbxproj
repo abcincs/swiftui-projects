@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		820F82F125BA713300C1650F /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F82F025BA713300C1650F /* Project2.swift */; };
-		82148568252F2B4B00BC60BC /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82148567252F2B4B00BC60BC /* CloudView.swift */; };
 		821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC8CD253EC2B1005253AD /* CedricView.swift */; };
 		82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2225B8A18A0069CB13 /* RectangleLoader.swift */; };
 		82227A2925B8A18A0069CB13 /* AlertFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2325B8A18A0069CB13 /* AlertFinishView.swift */; };
@@ -22,8 +21,6 @@
 		82571A3B25B8829400FB1F37 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82571A3A25B8829400FB1F37 /* Project1.swift */; };
 		82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82625196255AD635009B0DD7 /* WhatsappStatus.swift */; };
 		826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */; };
-		826FBA56252E1502006F766D /* InstaKilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA55252E1502006F766D /* InstaKilo.swift */; };
-		826FBA58252E1F06006F766D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826FBA57252E1F06006F766D /* ChatsView.swift */; };
 		829E2EB32559785500C52B31 /* TwitterCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E2EB22559785500C52B31 /* TwitterCharView.swift */; };
 		82ADDB9425EE2BEE00EDE545 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */; };
 		82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */; };
@@ -61,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		820F82F025BA713300C1650F /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
-		82148567252F2B4B00BC60BC /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
 		821CC8CD253EC2B1005253AD /* CedricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedricView.swift; sourceTree = "<group>"; };
 		82227A2225B8A18A0069CB13 /* RectangleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLoader.swift; sourceTree = "<group>"; };
 		82227A2325B8A18A0069CB13 /* AlertFinishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertFinishView.swift; sourceTree = "<group>"; };
@@ -75,8 +71,6 @@
 		82571A3A25B8829400FB1F37 /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 		82625196255AD635009B0DD7 /* WhatsappStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappStatus.swift; sourceTree = "<group>"; };
 		826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackGround.swift; sourceTree = "<group>"; };
-		826FBA55252E1502006F766D /* InstaKilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo.swift; sourceTree = "<group>"; };
-		826FBA57252E1F06006F766D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 		829E2EB22559785500C52B31 /* TwitterCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCharView.swift; sourceTree = "<group>"; };
 		82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 		82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Colors.swift"; sourceTree = "<group>"; };
@@ -133,14 +127,6 @@
 			path = "Project 17";
 			sourceTree = "<group>";
 		};
-		82148564252F2B3300BC60BC /* Project 12 */ = {
-			isa = PBXGroup;
-			children = (
-				82148567252F2B4B00BC60BC /* CloudView.swift */,
-			);
-			path = "Project 12";
-			sourceTree = "<group>";
-		};
 		821CC8CC253EC29A005253AD /* Project 16 */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,8 +146,6 @@
 				82BC16DF252DBBE300148512 /* Project 8 */,
 				82BC16F0252DBC5000148512 /* Project 9 */,
 				82BC16F8252DC81F00148512 /* Project 10 */,
-				826FBA52252E14D7006F766D /* Project 11 */,
-				82148564252F2B3300BC60BC /* Project 12 */,
 				82E280CA2535A004006A18D4 /* Project 13 */,
 				82E280CF2535A0AA006A18D4 /* Project 14 */,
 				82E280D02535A0BA006A18D4 /* Project 15 */,
@@ -193,15 +177,6 @@
 				821CC8CD253EC2B1005253AD /* CedricView.swift */,
 			);
 			path = "Project 18";
-			sourceTree = "<group>";
-		};
-		826FBA52252E14D7006F766D /* Project 11 */ = {
-			isa = PBXGroup;
-			children = (
-				826FBA55252E1502006F766D /* InstaKilo.swift */,
-				826FBA57252E1F06006F766D /* ChatsView.swift */,
-			);
-			path = "Project 11";
 			sourceTree = "<group>";
 		};
 		82ADDBA225EE330300EDE545 /* Utilities */ = {
@@ -437,14 +412,11 @@
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
 				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
 				82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */,
-				82148568252F2B4B00BC60BC /* CloudView.swift in Sources */,
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
 				82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */,
 				82227A2C25B8A18A0069CB13 /* SessionsView.swift in Sources */,
-				826FBA58252E1F06006F766D /* ChatsView.swift in Sources */,
 				824E59B52535A2CC007F3330 /* AutoLoginView.swift in Sources */,
 				82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */,
-				826FBA56252E1502006F766D /* InstaKilo.swift in Sources */,
 				82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */,
 				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
 				82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */,

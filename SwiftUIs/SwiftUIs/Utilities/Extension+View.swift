@@ -54,4 +54,16 @@ extension View {
     func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape( RoundedCorner(radius: radius, corners: corners) )
     }
+    
+    /// Ignore keyboard for a view
+    /// - Returns: A View that ingores the appearance of the keyboard
+    func viewIgnoreKeyboard() -> some View {
+        return Group {
+            if #available(iOS 14.0, *) {
+                self.ignoresSafeArea(.keyboard)
+            } else {
+                self
+            }
+        }
+    }
 }
