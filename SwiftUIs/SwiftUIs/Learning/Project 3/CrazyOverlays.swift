@@ -16,12 +16,12 @@ struct CrazyOverlays: View {
                 Image(images[$0])
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 40, height: 40)
+                    .frame(width: 80, height: 80)
                     .clipShape(Circle())
                     .padding(2)
                     .background(Color.white)
                     .clipShape(Circle())
-                    .padding(.leading, -15)
+                    .padding(.leading, -30)
             }
             
         }
