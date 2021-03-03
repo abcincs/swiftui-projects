@@ -62,7 +62,7 @@ struct AutoLogin: View {
             ZStack(alignment: .leading) {
                 Color(red: 0.949, green: 0.949, blue: 0.949)
                     .edgesIgnoringSafeArea(.all)
-                if !isIphone {
+                if isIphone {
                     VStack(alignment: .leading) {
                         viewHeader
                             .frame(height: geometry.size.height / 3.7)
