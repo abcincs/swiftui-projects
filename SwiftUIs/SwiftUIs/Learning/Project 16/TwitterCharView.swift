@@ -50,14 +50,16 @@ struct TwitterCharView: View {
                         .minimumScaleFactor(0.5)
                 }
             }
-            TextField("", text: $text.onChange({ value in
+            TextEditor(text: $text.onChange({ value in
                 withAnimation {
                     self.progress = CGFloat(value.count)/280.0
                 }
             }))
-                .padding(10)
-                .background(Color.red.opacity(0.1))
-                .padding(10)
+            .font(.title)
+            .padding(10)
+            .background(Color.red.opacity(0.1))
+            .frame(height: 300)
+            .padding(10)
             
         }
     }
