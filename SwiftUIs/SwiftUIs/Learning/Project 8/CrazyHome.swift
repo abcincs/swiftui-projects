@@ -148,6 +148,7 @@ struct CrazyHome: View {
                 //            .edgesIgnoringSafeArea(.all)
             )
         }
+        .statusBar(hidden: true)
     }
 }
 

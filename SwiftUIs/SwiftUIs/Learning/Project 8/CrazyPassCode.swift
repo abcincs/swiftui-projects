@@ -96,6 +96,7 @@ struct CrazyPassCode: View {
                         playSound()
                     }
             }
+            Spacer()
             
             HStack(spacing: 10) {
                 Text("Emergency").bold()

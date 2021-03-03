@@ -22,8 +22,6 @@ struct DatePickerView: View {
                 today = date
                 print(today)
             })
-//            .background(Color.black)
-//            .edgesIgnoringSafeArea(.all)
         }
     }
 }
