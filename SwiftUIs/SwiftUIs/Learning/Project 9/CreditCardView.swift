@@ -10,7 +10,7 @@ import SwiftUI
 
 struct CreditCardView: View {
     
-    @State var text: String = "5304464212345678"
+    @State var text: String = "2001 2010 0207 1999 000"
     @State var mainColor = Color(red: 0.146, green: 0.183, blue: 0.22)
     var body: some View {
         VStack {
@@ -70,7 +70,7 @@ struct CreditCardView: View {
             print(number.trimmingCharacters(in: .whitespaces))
             return Color(red: 0.146, green: 0.183, blue: 0.22)
         }
-        
+
         withAnimation {
             color = cardNumber <= 500 ? .red : cardNumber <= 1000 ? .yellow : cardNumber <= 2000 ? .green : .black
         }

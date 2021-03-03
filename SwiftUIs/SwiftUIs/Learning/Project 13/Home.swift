@@ -92,7 +92,6 @@ struct Home: View {
 
                 let _ = Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { timer in
                     if self.imageIndex < self.images.count - 1 {
-//                        withAnimation(Animation.interactiveSpring(response: 0.5, dampingFraction: 0.15, blendDuration: 0.5).repeatForever(autoreverses: false)) {
                         withAnimation(Animation.interpolatingSpring(stiffness: 0.1, damping: 0.5, initialVelocity: 1)) {
                             self.imageIndex += 1
                         }

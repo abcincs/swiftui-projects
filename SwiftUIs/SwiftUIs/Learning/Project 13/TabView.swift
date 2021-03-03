@@ -16,8 +16,6 @@ struct TabBar: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack {
-                
-//                .edgesIgnoringSafeArea(.all)
                 Rectangle()
                 .fill(LinearGradient(gradient: Gradient(colors: self.colors), startPoint: .topLeading, endPoint: .bottomTrailing))
                 VStack(alignment: .leading){
@@ -144,10 +142,6 @@ struct TabBar: View {
                     }
                 .padding(.top)
                 .padding(.top)
-//                    .edgesIgnoringSafeArea(.bottom)
-//                .sheet(isPresented: self.$showPopUp) {
-//                        Home()
-//                }
             } .edgesIgnoringSafeArea(.all)
             
 

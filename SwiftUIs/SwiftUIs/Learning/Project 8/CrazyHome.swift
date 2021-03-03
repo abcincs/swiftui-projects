@@ -117,12 +117,12 @@ struct CrazyHome: View {
                 .padding(.vertical)
                 .padding(.vertical)
                 .padding(.horizontal, 6)
-                    
+                
                 .frame(width: geometry.size.width - 20, height: geometry.size.height / 2.8)
-                    
+                
                 .background(Color.black.opacity(0.85))
                 .contrast(0.8)
-                    
+                
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 
                 
@@ -141,11 +141,11 @@ struct CrazyHome: View {
                 .foregroundColor(Color.white.opacity(0.5))
                 Spacer().frame(height: 20)
             }
-                
-            .background(Image("beach")
-            .resizable()
-            .frame(width: geometry.size.width, height: 895 + 36)
-                //            .edgesIgnoringSafeArea(.all)
+            
+            .background(
+                Image("beach")
+                    .resizable()
+                    .edgesIgnoringSafeArea(.all)
             )
         }
         .statusBar(hidden: true)
