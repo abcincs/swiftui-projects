@@ -122,8 +122,7 @@ struct CrazyHome: View {
                 
                 .background(Color.black.opacity(0.85))
                 .contrast(0.8)
-                
-                .clipShape(RoundedRectangle(cornerRadius: 20))
+                .cornerRadius(20)
                 
                 
                 Spacer()

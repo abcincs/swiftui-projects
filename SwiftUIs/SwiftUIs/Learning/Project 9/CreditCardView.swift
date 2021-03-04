@@ -59,7 +59,7 @@ struct CreditCardView: View {
             VStack {
                 CardTextView(text: $text)
                     .frame(width: 350, height: 50)
-                    .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .cornerRadius(15)
             }
         }
     }

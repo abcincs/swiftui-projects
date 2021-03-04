@@ -132,7 +132,7 @@ struct CrazyAudioMack: View {
                 Spacer()
                 HStack {
                     Text("HIFI").font(.system(size: 15, weight: .bold)).padding(.horizontal, 6).padding(.vertical, 3).background(Color(red: 0.118, green: 0.118, blue: 0.124))
-                        .clipShape(RoundedRectangle(cornerRadius: 5))
+                        .cornerRadius(5)
                     Spacer()
                     HStack(spacing: 20) {
                         Image(systemName: "backward.end.alt").resizable().frame(width: 40, height: 25)

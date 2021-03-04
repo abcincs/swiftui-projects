@@ -93,7 +93,7 @@ struct RightClip: ViewModifier {
     func body(content: Content) -> some View {
         
         ZStack {
-            content.clipShape(RoundedRectangle(cornerRadius: radius))
+            content.cornerRadius(radius)
         }
         
     }

@@ -16,7 +16,7 @@ struct CrazyDrags: View {
                 Rectangle()
                     .fill(LinearGradient(gradient: Gradient(colors: [.yellow, .red]), startPoint: .topLeading, endPoint: .bottomTrailing))
                     .frame(width: 300, height: 200)
-                    .clipShape(RoundedRectangle(cornerRadius: 20))
+                    .cornerRadius(20)
                     .rotation3DEffect(.degrees(-Double(dragAmount.width) / 20), axis: (x: 0,y: 1,z: 0))
                     .rotation3DEffect(.degrees(-Double(dragAmount.height) / 20), axis: (x: 1,y: 0,z: 0))
                     .offset(dragAmount)

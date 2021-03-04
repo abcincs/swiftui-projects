@@ -16,7 +16,7 @@ struct CrazyRectangles: View {
                 Rectangle()
                     .fill(Color.green)
                     .frame(width: overlap > 0 ? 200 : 100, height: overlap > 0 ? 200 : 100)
-                    .clipShape(RoundedRectangle(cornerRadius: overlap > 0 ? 0 : 200))
+                    .cornerRadius(overlap > 0 ? 0 : 200)
                     .rotationEffect(Angle(degrees: overlap > 0 ? 360 : 0))
                     .zIndex(Double(overlap))
                 
@@ -24,7 +24,7 @@ struct CrazyRectangles: View {
                 Rectangle()
                     .fill(Color.red)
                     .frame(width: overlap > 0 ? 200 : 100, height: overlap > 0 ? 200 : 100)
-                    .clipShape(RoundedRectangle(cornerRadius: overlap > 0 ? 0 : 200))
+                    .cornerRadius(overlap > 0 ? 0 : 200)
                     .rotationEffect(Angle(degrees: overlap > 0 ? 360 : 0))
                     .zIndex(Double(-1 * overlap))
                     
