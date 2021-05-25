@@ -9,10 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var offSet = CGSize.zero
-    @State private var cardOffSet = CGSize(width: 0, height: 0)
+    
     var body: some View {
-        CedricView()
+        DotStrokeView()
     }
 }
 

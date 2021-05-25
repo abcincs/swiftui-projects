@@ -54,6 +54,5 @@ struct CheckmarkContentView: View {
 struct Checkmark_Previews: PreviewProvider {
     static var previews: some View {
         CheckmarkContentView()
-            .previewDevice("iPhone 12")
     }
 }

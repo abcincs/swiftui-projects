@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		820F82F125BA713300C1650F /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F82F025BA713300C1650F /* Project2.swift */; };
-		821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC8CD253EC2B1005253AD /* CedricView.swift */; };
 		82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2225B8A18A0069CB13 /* RectangleLoader.swift */; };
 		82227A2925B8A18A0069CB13 /* AlertFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2325B8A18A0069CB13 /* AlertFinishView.swift */; };
 		82227A2A25B8A18A0069CB13 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2425B8A18A0069CB13 /* AlertView.swift */; };
@@ -65,13 +64,13 @@
 		82D2EEBC265D3C5D00A35C64 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEB0265D3C5D00A35C64 /* OrderButton.swift */; };
 		82D2EEBD265D3C5D00A35C64 /* RecButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEB3265D3C5D00A35C64 /* RecButton.swift */; };
 		82D2EEC0265D3C8200A35C64 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEBF265D3C8200A35C64 /* GlobalHelpers.swift */; };
+		82D2EEC4265D3DA500A35C64 /* DotStrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEC3265D3DA500A35C64 /* DotStrokeView.swift */; };
 		82E280CC2535A045006A18D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CB2535A045006A18D4 /* Home.swift */; };
 		82E280CE2535A04B006A18D4 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CD2535A04B006A18D4 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		820F82F025BA713300C1650F /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
-		821CC8CD253EC2B1005253AD /* CedricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedricView.swift; sourceTree = "<group>"; };
 		82227A2225B8A18A0069CB13 /* RectangleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLoader.swift; sourceTree = "<group>"; };
 		82227A2325B8A18A0069CB13 /* AlertFinishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertFinishView.swift; sourceTree = "<group>"; };
 		82227A2425B8A18A0069CB13 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
@@ -130,6 +129,7 @@
 		82D2EEB0265D3C5D00A35C64 /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
 		82D2EEB3265D3C5D00A35C64 /* RecButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecButton.swift; sourceTree = "<group>"; };
 		82D2EEBF265D3C8200A35C64 /* GlobalHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		82D2EEC3265D3DA500A35C64 /* DotStrokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotStrokeView.swift; sourceTree = "<group>"; };
 		82E280CB2535A045006A18D4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		82E280CD2535A04B006A18D4 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,7 +209,7 @@
 		82625195255AD625009B0DD7 /* Project 18 */ = {
 			isa = PBXGroup;
 			children = (
-				821CC8CD253EC2B1005253AD /* CedricView.swift */,
+				82D2EEC3265D3DA500A35C64 /* DotStrokeView.swift */,
 			);
 			path = "Project 18";
 			sourceTree = "<group>";
@@ -550,6 +550,7 @@
 				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
 				82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */,
 				82D2EEBC265D3C5D00A35C64 /* OrderButton.swift in Sources */,
+				82D2EEC4265D3DA500A35C64 /* DotStrokeView.swift in Sources */,
 				82D2EEB8265D3C5D00A35C64 /* DownloadButton.swift in Sources */,
 				82D2EEB4265D3C5D00A35C64 /* AudioButton.swift in Sources */,
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
@@ -560,7 +561,6 @@
 				82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */,
 				8230D1DE25EF8CF300031A97 /* FragmentableView.swift in Sources */,
 				82D2EEC0265D3C8200A35C64 /* GlobalHelpers.swift in Sources */,
-				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
 				82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */,
 				8248DEAA25EE468500AC0184 /* CrazyStarWars.swift in Sources */,
 				82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */,

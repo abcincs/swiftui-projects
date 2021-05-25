@@ -1,14 +1,14 @@
 //
-//  CedricView.swift
+//  DotStrokeView.swift
 //  SwiftUIs
 //
-//  Created by Cedric Bahirwe on 10/20/20.
-//  Copyright © 2020 Cedric Bahirwe. All rights reserved.
+//  Created by Cédric Bahirwe on 25/05/2021.
+//  Copyright © 2021 Cedric Bahirwe. All rights reserved.
 //
 
 import SwiftUI
 
-struct CedricView: View {
+struct DotStrokeView: View {
     let geometry = UIScreen.main.bounds.size
     
     var body: some View {
@@ -23,8 +23,8 @@ struct CedricView: View {
     }
 }
 
-struct CedricView_Previews: PreviewProvider {
+struct DotStrokeView_Previews: PreviewProvider {
     static var previews: some View {
-        CedricView()
+        DotStrokeView()
     }
 }
