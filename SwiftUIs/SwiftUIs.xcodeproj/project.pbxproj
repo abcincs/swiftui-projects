@@ -54,6 +54,17 @@
 		82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16E7252DBBE300148512 /* CrazyAudioMack.swift */; };
 		82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F2252DBC5000148512 /* CreditCardView.swift */; };
 		82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC16F9252DC83400148512 /* CrazyScroll.swift */; };
+		82D2EEB4265D3C5D00A35C64 /* AudioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEA1265D3C5D00A35C64 /* AudioButton.swift */; };
+		82D2EEB5265D3C5D00A35C64 /* Checkmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEA3265D3C5D00A35C64 /* Checkmark.swift */; };
+		82D2EEB6265D3C5D00A35C64 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEA5265D3C5D00A35C64 /* MusicPlayer.swift */; };
+		82D2EEB7265D3C5D00A35C64 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEA7265D3C5D00A35C64 /* PasswordField.swift */; };
+		82D2EEB8265D3C5D00A35C64 /* DownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEA9265D3C5D00A35C64 /* DownloadButton.swift */; };
+		82D2EEB9265D3C5D00A35C64 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEAA265D3C5D00A35C64 /* ProgressBar.swift */; };
+		82D2EEBA265D3C5D00A35C64 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEAC265D3C5D00A35C64 /* Stopwatch.swift */; };
+		82D2EEBB265D3C5D00A35C64 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEAE265D3C5D00A35C64 /* LikeButton.swift */; };
+		82D2EEBC265D3C5D00A35C64 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEB0265D3C5D00A35C64 /* OrderButton.swift */; };
+		82D2EEBD265D3C5D00A35C64 /* RecButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEB3265D3C5D00A35C64 /* RecButton.swift */; };
+		82D2EEC0265D3C8200A35C64 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEBF265D3C8200A35C64 /* GlobalHelpers.swift */; };
 		82E280CC2535A045006A18D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CB2535A045006A18D4 /* Home.swift */; };
 		82E280CE2535A04B006A18D4 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CD2535A04B006A18D4 /* TabView.swift */; };
 /* End PBXBuildFile section */
@@ -108,6 +119,17 @@
 		82BC16E7252DBBE300148512 /* CrazyAudioMack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyAudioMack.swift; sourceTree = "<group>"; };
 		82BC16F2252DBC5000148512 /* CreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
 		82BC16F9252DC83400148512 /* CrazyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyScroll.swift; sourceTree = "<group>"; };
+		82D2EEA1265D3C5D00A35C64 /* AudioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioButton.swift; sourceTree = "<group>"; };
+		82D2EEA3265D3C5D00A35C64 /* Checkmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkmark.swift; sourceTree = "<group>"; };
+		82D2EEA5265D3C5D00A35C64 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		82D2EEA7265D3C5D00A35C64 /* PasswordField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		82D2EEA9265D3C5D00A35C64 /* DownloadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadButton.swift; sourceTree = "<group>"; };
+		82D2EEAA265D3C5D00A35C64 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		82D2EEAC265D3C5D00A35C64 /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		82D2EEAE265D3C5D00A35C64 /* LikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		82D2EEB0265D3C5D00A35C64 /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
+		82D2EEB3265D3C5D00A35C64 /* RecButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecButton.swift; sourceTree = "<group>"; };
+		82D2EEBF265D3C8200A35C64 /* GlobalHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		82E280CB2535A045006A18D4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		82E280CD2535A04B006A18D4 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -232,6 +254,8 @@
 				82ADDBA225EE330300EDE545 /* Utilities */,
 				82571A2F25B8810200FB1F37 /* January */,
 				82571A2D25B880F300FB1F37 /* Learning */,
+				82D2EE9F265D3C5D00A35C64 /* Animations */,
+				82D2EEBF265D3C8200A35C64 /* GlobalHelpers.swift */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -321,6 +345,103 @@
 				826FBA2A252DF8F0006F766D /* ButtonBackGround.swift */,
 			);
 			path = "Project 10";
+			sourceTree = "<group>";
+		};
+		82D2EE9F265D3C5D00A35C64 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEA0265D3C5D00A35C64 /* AudioButton */,
+				82D2EEA2265D3C5D00A35C64 /* Checkmark */,
+				82D2EEA4265D3C5D00A35C64 /* MusicPlayer */,
+				82D2EEA6265D3C5D00A35C64 /* PasswordField */,
+				82D2EEA8265D3C5D00A35C64 /* DownloadButton */,
+				82D2EEAB265D3C5D00A35C64 /* Stopwatch */,
+				82D2EEAD265D3C5D00A35C64 /* LikeButton */,
+				82D2EEAF265D3C5D00A35C64 /* OrderButton */,
+				82D2EEB1265D3C5D00A35C64 /* LoadingSpinner */,
+				82D2EEB2265D3C5D00A35C64 /* RecButton */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		82D2EEA0265D3C5D00A35C64 /* AudioButton */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEA1265D3C5D00A35C64 /* AudioButton.swift */,
+			);
+			path = AudioButton;
+			sourceTree = "<group>";
+		};
+		82D2EEA2265D3C5D00A35C64 /* Checkmark */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEA3265D3C5D00A35C64 /* Checkmark.swift */,
+			);
+			path = Checkmark;
+			sourceTree = "<group>";
+		};
+		82D2EEA4265D3C5D00A35C64 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEA5265D3C5D00A35C64 /* MusicPlayer.swift */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		82D2EEA6265D3C5D00A35C64 /* PasswordField */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEA7265D3C5D00A35C64 /* PasswordField.swift */,
+			);
+			path = PasswordField;
+			sourceTree = "<group>";
+		};
+		82D2EEA8265D3C5D00A35C64 /* DownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEA9265D3C5D00A35C64 /* DownloadButton.swift */,
+				82D2EEAA265D3C5D00A35C64 /* ProgressBar.swift */,
+			);
+			path = DownloadButton;
+			sourceTree = "<group>";
+		};
+		82D2EEAB265D3C5D00A35C64 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEAC265D3C5D00A35C64 /* Stopwatch.swift */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		82D2EEAD265D3C5D00A35C64 /* LikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEAE265D3C5D00A35C64 /* LikeButton.swift */,
+			);
+			path = LikeButton;
+			sourceTree = "<group>";
+		};
+		82D2EEAF265D3C5D00A35C64 /* OrderButton */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEB0265D3C5D00A35C64 /* OrderButton.swift */,
+			);
+			path = OrderButton;
+			sourceTree = "<group>";
+		};
+		82D2EEB1265D3C5D00A35C64 /* LoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoadingSpinner;
+			sourceTree = "<group>";
+		};
+		82D2EEB2265D3C5D00A35C64 /* RecButton */ = {
+			isa = PBXGroup;
+			children = (
+				82D2EEB3265D3C5D00A35C64 /* RecButton.swift */,
+			);
+			path = RecButton;
 			sourceTree = "<group>";
 		};
 		82E280CA2535A004006A18D4 /* Project 13 */ = {
@@ -421,11 +542,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D2EEBD265D3C5D00A35C64 /* RecButton.swift in Sources */,
+				82D2EEBB265D3C5D00A35C64 /* LikeButton.swift in Sources */,
 				82BC16E9252DBBE300148512 /* CharacterDetail.swift in Sources */,
 				820F82F125BA713300C1650F /* Project2.swift in Sources */,
 				82BC16BC252DB90700148512 /* CrazyRectangles.swift in Sources */,
 				82BC16FA252DC83400148512 /* CrazyScroll.swift in Sources */,
 				82625197255AD635009B0DD7 /* WhatsappStatus.swift in Sources */,
+				82D2EEBC265D3C5D00A35C64 /* OrderButton.swift in Sources */,
+				82D2EEB8265D3C5D00A35C64 /* DownloadButton.swift in Sources */,
+				82D2EEB4265D3C5D00A35C64 /* AudioButton.swift in Sources */,
 				82BC16EE252DBBE300148512 /* CrazyHome.swift in Sources */,
 				82BC16EC252DBBE300148512 /* CharacterView.swift in Sources */,
 				82227A2C25B8A18A0069CB13 /* SessionsView.swift in Sources */,
@@ -433,13 +559,16 @@
 				82BC16D4252DBA7D00148512 /* CustomTextView.swift in Sources */,
 				82BC16F4252DBC5000148512 /* CreditCardView.swift in Sources */,
 				8230D1DE25EF8CF300031A97 /* FragmentableView.swift in Sources */,
+				82D2EEC0265D3C8200A35C64 /* GlobalHelpers.swift in Sources */,
 				821CC8CE253EC2B1005253AD /* CedricView.swift in Sources */,
 				82ADDB9C25EE2CF700EDE545 /* Extension+Colors.swift in Sources */,
 				8248DEAA25EE468500AC0184 /* CrazyStarWars.swift in Sources */,
 				82BC16B3252DB88F00148512 /* CrazyText.swift in Sources */,
+				82D2EEB5265D3C5D00A35C64 /* Checkmark.swift in Sources */,
 				82227A2825B8A18A0069CB13 /* RectangleLoader.swift in Sources */,
 				82BC16BE252DB90700148512 /* CrazyDrags.swift in Sources */,
 				829E2EB32559785500C52B31 /* TwitterCharView.swift in Sources */,
+				82D2EEBA265D3C5D00A35C64 /* Stopwatch.swift in Sources */,
 				82BC16DB252DBB4B00148512 /* CalendarView.swift in Sources */,
 				82BC16ED252DBBE300148512 /* CrazyPassCode.swift in Sources */,
 				82227A2B25B8A18A0069CB13 /* RectangleFieldView.swift in Sources */,
@@ -449,12 +578,14 @@
 				82227A2925B8A18A0069CB13 /* AlertFinishView.swift in Sources */,
 				82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */,
 				82BC169B252DB80400148512 /* AppDelegate.swift in Sources */,
+				82D2EEB6265D3C5D00A35C64 /* MusicPlayer.swift in Sources */,
 				82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */,
 				82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */,
 				82ADDBA725EE359B00EDE545 /* JsonDecoder.swift in Sources */,
 				82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */,
 				82E280CC2535A045006A18D4 /* Home.swift in Sources */,
 				8230D1E525EF8D1D00031A97 /* GridStackView.swift in Sources */,
+				82D2EEB7265D3C5D00A35C64 /* PasswordField.swift in Sources */,
 				82227A2A25B8A18A0069CB13 /* AlertView.swift in Sources */,
 				82BC16CD252DBA5D00148512 /* CrazyCheckerBoard.swift in Sources */,
 				82B043EF253B54480066C526 /* TicTacToe.swift in Sources */,
@@ -464,6 +595,7 @@
 				826FBA2B252DF8F0006F766D /* ButtonBackGround.swift in Sources */,
 				8248DEA225EE40AF00AC0184 /* CrazyOverlays.swift in Sources */,
 				82BC16C9252DB9DF00148512 /* CardTextView.swift in Sources */,
+				82D2EEB9265D3C5D00A35C64 /* ProgressBar.swift in Sources */,
 				82ADDB9425EE2BEE00EDE545 /* Extension+View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
