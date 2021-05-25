@@ -20,6 +20,10 @@ let clearWhite = Color(red: 17/255, green: 18/255, blue: 19/255)
 let clearGray = Color(red: 181/255, green: 182/255, blue: 183/255)
 let clearBlue = Color(red: 116/255, green: 166/255, blue: 240/255)
 
+extension Color {
+    static let offWhite = Color(red: 225 / 255, green: 225 / 255, blue: 235 / 255)
+}
+
 extension UIScreen{
    static let screenWidth = UIScreen.main.bounds.size.width
    static let screenHeight = UIScreen.main.bounds.size.height

@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @State private var animate: Bool = false
     var body: some View {
-        DotStrokeView()
+        SessionsView()
     }
 }
 
@@ -22,7 +22,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-extension Color {
-    static let offWhite = Color(red: 225 / 255, green: 225 / 255, blue: 235 / 255)
-}
 

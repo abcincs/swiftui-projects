@@ -34,8 +34,8 @@ struct RectangleFieldView: View {
             
         }
         .padding()
-        .frame(width: 350)
         .padding(.bottom,5)
+        .frame(maxWidth: 420)
         .background(Color.white.opacity(0.5))
         .cornerRadius(15)
         .shadow(color: Color.black.opacity(0.2), radius: 3, x: 3, y: 3)
@@ -47,7 +47,6 @@ struct RectangleFieldView: View {
 struct RectangleFieldView_Previews: PreviewProvider {
     static var previews: some View {
         RectangleFieldView()
-//            .previewLayout(.fixed(width: 800, height: 400))
-
+            .previewLayout(.fixed(width: 460, height: 300))
     }
 }

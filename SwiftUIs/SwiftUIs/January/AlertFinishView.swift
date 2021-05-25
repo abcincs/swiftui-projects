@@ -44,5 +44,7 @@ struct AlertFinishView: View {
 struct AlertFinishView_Previews: PreviewProvider {
     static var previews: some View {
         AlertFinishView()
+            .previewLayout(.fixed(width: 350, height: 200))
+            .preferredColorScheme(.dark)
     }
 }

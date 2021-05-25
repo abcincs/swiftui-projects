@@ -65,6 +65,22 @@ struct FragmentableView<Content: View>: View {
                 
             )
             .frame(height: UIScreen.main.bounds.width)
-            .animation(.spring(response: 0.5, dampingFraction: 0.95, blendDuration: 0.5))
+            .animation(.spring(response: 0.75, dampingFraction: 0.95, blendDuration: 0.5))
+    }
+}
+
+struct FragmentableView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        FragmentableView(animate: .constant(true)) {
+            LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing)
+                .mask(
+                    Image(systemName: "person")
+                        .resizable()
+                        .scaledToFit()
+                )
+                .padding()
+            
+        }
     }
 }

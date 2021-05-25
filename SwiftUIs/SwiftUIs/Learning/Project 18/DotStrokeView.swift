@@ -17,14 +17,13 @@ struct DotStrokeView: View {
                 .strokeBorder(style: StrokeStyle(lineWidth: 4, lineCap: .round, dash: [10, 20,2]))
                 .frame(width: 200, height: 200)
                 .rotationEffect(.degrees(-90))
-
         }
-        
     }
 }
 
 struct DotStrokeView_Previews: PreviewProvider {
     static var previews: some View {
         DotStrokeView()
+            .previewLayout(.fixed(width: 300, height: 300))
     }
 }

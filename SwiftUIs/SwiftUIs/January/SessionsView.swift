@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 ///Add `SessionsView` , a view with the behavior as the Mac Login Screen
 struct SessionsView: View {
     @State private var showPasswordField = false

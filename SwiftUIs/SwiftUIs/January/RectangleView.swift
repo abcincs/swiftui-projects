@@ -51,5 +51,7 @@ struct RectangleView: View {
 struct RectangleView_Previews: PreviewProvider {
     static var previews: some View {
         RectangleView()
+            .previewLayout(.fixed(width: 350, height: 280))
+
     }
 }

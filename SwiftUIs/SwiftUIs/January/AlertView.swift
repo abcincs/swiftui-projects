@@ -47,5 +47,7 @@ struct AlertView: View {
 struct AlertView_Previews: PreviewProvider {
     static var previews: some View {
         AlertView()
+            .previewLayout(.fixed(width: 350, height: 200))
+        
     }
 }
