@@ -14,6 +14,7 @@
 		82227A2B25B8A18A0069CB13 /* RectangleFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2525B8A18A0069CB13 /* RectangleFieldView.swift */; };
 		82227A2C25B8A18A0069CB13 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2625B8A18A0069CB13 /* SessionsView.swift */; };
 		82227A2D25B8A18A0069CB13 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82227A2725B8A18A0069CB13 /* RectangleView.swift */; };
+		822C632F266AC8D50010FF33 /* SIdeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C632E266AC8D50010FF33 /* SIdeBarView.swift */; };
 		8230D1DE25EF8CF300031A97 /* FragmentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8230D1DD25EF8CF300031A97 /* FragmentableView.swift */; };
 		8230D1E525EF8D1D00031A97 /* GridStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8230D1E425EF8D1D00031A97 /* GridStackView.swift */; };
 		8248DEA225EE40AF00AC0184 /* CrazyOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248DEA125EE40AF00AC0184 /* CrazyOverlays.swift */; };
@@ -77,6 +78,7 @@
 		82227A2525B8A18A0069CB13 /* RectangleFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleFieldView.swift; sourceTree = "<group>"; };
 		82227A2625B8A18A0069CB13 /* SessionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
 		82227A2725B8A18A0069CB13 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		822C632E266AC8D50010FF33 /* SIdeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIdeBarView.swift; sourceTree = "<group>"; };
 		8230D1DD25EF8CF300031A97 /* FragmentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentableView.swift; sourceTree = "<group>"; };
 		8230D1E425EF8D1D00031A97 /* GridStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStackView.swift; sourceTree = "<group>"; };
 		8248DEA125EE40AF00AC0184 /* CrazyOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyOverlays.swift; sourceTree = "<group>"; };
@@ -159,6 +161,14 @@
 				829E2EB22559785500C52B31 /* TwitterCharView.swift */,
 			);
 			path = "Project 16";
+			sourceTree = "<group>";
+		};
+		822C632D266AC8CA0010FF33 /* June */ = {
+			isa = PBXGroup;
+			children = (
+				822C632E266AC8D50010FF33 /* SIdeBarView.swift */,
+			);
+			path = June;
 			sourceTree = "<group>";
 		};
 		8230D1DC25EF8CE500031A97 /* GenericViews */ = {
@@ -256,6 +266,7 @@
 				82571A2D25B880F300FB1F37 /* Learning */,
 				82D2EE9F265D3C5D00A35C64 /* Animations */,
 				82D2EEBF265D3C8200A35C64 /* GlobalHelpers.swift */,
+				822C632D266AC8CA0010FF33 /* June */,
 				82BC16A0252DB80500148512 /* Assets.xcassets */,
 				82BC16A5252DB80500148512 /* LaunchScreen.storyboard */,
 				82BC16A8252DB80500148512 /* Info.plist */,
@@ -583,6 +594,7 @@
 				82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */,
 				82ADDBA725EE359B00EDE545 /* JsonDecoder.swift in Sources */,
 				82BC16E8252DBBE300148512 /* ImageLoader.swift in Sources */,
+				822C632F266AC8D50010FF33 /* SIdeBarView.swift in Sources */,
 				82E280CC2535A045006A18D4 /* Home.swift in Sources */,
 				8230D1E525EF8D1D00031A97 /* GridStackView.swift in Sources */,
 				82D2EEB7265D3C5D00A35C64 /* PasswordField.swift in Sources */,
