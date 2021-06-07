@@ -20,12 +20,12 @@ struct LikeButton: View {
                 Image(systemName: "heart.fill")
                     .resizable()
                     .scaleEffect(0.7)
-                    .foregroundColor(clearGray)
+                    .foregroundColor(.clearGray)
 
                 Image(systemName: "heart.fill")
                     .resizable()
                     .scaleEffect(isLiked ? 1.0 : 0.0)
-                    .foregroundColor(darkPink)
+                    .foregroundColor(.darkPink)
                     .animation(.spring(response: isLiked ? 0.5 : 0.2,
                                        dampingFraction: isLiked ? 0.5 : 1))
             }
@@ -38,7 +38,7 @@ struct LikeButton: View {
 
             Text(likes)
                 .font(.system(size: 50, weight: .light))
-                .foregroundColor(clearGray)
+                .foregroundColor(.clearGray)
                 .opacity(likesOpacity)
                 .offset(x: 0, y: likesOffset)
 //                .transition(.move(edge: isLiked ? .bottom : .top))
@@ -88,7 +88,7 @@ struct LikeButton: View {
 struct LikeButton_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            darkGray.edgesIgnoringSafeArea(.all)
+            Color.darkGray.edgesIgnoringSafeArea(.all)
 
             LikeButton()
                 .frame(width: 180, height: 100)

@@ -17,7 +17,7 @@ struct PasswordField: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 25.0)
                     .frame(width: geo.size.width, height: 75, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(darkGray)
+                    .foregroundColor(.darkGray)
 
                 HStack {
                     if !showPassword {
@@ -27,7 +27,7 @@ struct PasswordField: View {
                     RoundedRectangle(cornerRadius: showPassword ? 25.0 : 50.0)
                         .frame(width: showPassword ?  geo.size.width : 50, height: showPassword ?  75 : 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .animation(.linear(duration: 0.2))
-                        .foregroundColor(clearGray)
+                        .foregroundColor(.clearGray)
                         .padding(.trailing, showPassword ? 0 : 12)
                 }
 
@@ -35,11 +35,11 @@ struct PasswordField: View {
                     if showPassword {
                         TextField("Password", text: $password)
                             .font(.headline)
-                            .foregroundColor(darkGray)
+                            .foregroundColor(.darkGray)
                             .padding(.leading, 20)
                     } else {
                         SecureField("Password", text: $password)
-                            .foregroundColor(clearGray)
+                            .foregroundColor(.clearGray)
                             .padding(.leading, 20)
                     }
 
@@ -49,7 +49,7 @@ struct PasswordField: View {
                         .resizable()
                         .frame(width: 32, height: 20)
                         .font(.system(size: 16, weight: .bold))
-                        .foregroundColor(darkGray)
+                        .foregroundColor(.darkGray)
                         .padding(.trailing, 20)
                         .onTapGesture {
                             showPassword.toggle()
@@ -63,7 +63,7 @@ struct PasswordField: View {
 struct PasswordField_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            clearBlue.edgesIgnoringSafeArea(.all)
+            Color.clearBlue.edgesIgnoringSafeArea(.all)
             PasswordField()
                 .frame(width: 300)
                 .previewDevice("iPhone 12")

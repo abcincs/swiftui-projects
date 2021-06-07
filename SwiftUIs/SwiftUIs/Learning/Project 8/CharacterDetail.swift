@@ -32,7 +32,7 @@ struct CharacterDetail: View {
                     
                     .cornerRadius(40, corners: [.bottomLeft])
                 
-                Text(character.name).font(.largeTitle).foregroundColor(Color.offWhite)  + Text(" \(character.firstappearance)").foregroundColor(.red)
+                Text(character.name).font(.largeTitle).foregroundColor(.offWhite)  + Text(" \(character.firstappearance)").foregroundColor(.red)
                 HStack {
                     Text("By: ") + Text(character.createdby).foregroundColor(.green)
                     Text("Team: ") + Text(character.team).foregroundColor(.green)

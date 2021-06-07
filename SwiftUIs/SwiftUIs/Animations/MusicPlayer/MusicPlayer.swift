@@ -107,7 +107,7 @@ struct MusicPlayer: View {
             }
             .frame(maxWidth: .infinity)
             .frame(height: showsDetails ? UIScreen.screenHeight + 44 : 75)
-            .background(darkGray)
+            .background(Color.darkGray)
         }
     }
 }
@@ -116,7 +116,7 @@ struct MusicPlayerContentView: View {
 
     var body: some View {
         ZStack {
-            darkBlack
+            Color.darkBlack
                 .edgesIgnoringSafeArea(.all)
 
             MusicPlayer()

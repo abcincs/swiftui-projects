@@ -25,18 +25,18 @@ struct DownloadButton: View {
 
     var body: some View {
         ZStack {
-            darkGray
+            Color.darkGray
                 .edgesIgnoringSafeArea(.all)
 
             VStack(spacing: 2) {
                 Text("Open file")
                     .font(.title)
-                    .foregroundColor(darkBlue)
+                    .foregroundColor(.darkBlue)
                     .opacity((status == .finished) ? 1 : 0)
                     .animation(.easeOut(duration: animationTime))
 
                 ZStack {
-                    ProgressBar(initialProgress: $progress, color: darkBlue)
+                    ProgressBar(initialProgress: $progress, color: .darkBlue)
                         .frame(height: (status == .ready) ? 80 : 12)
                         .animation(.easeIn(duration: animationTime))
                     
