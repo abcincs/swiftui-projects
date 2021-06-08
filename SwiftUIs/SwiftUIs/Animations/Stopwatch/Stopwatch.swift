@@ -32,17 +32,17 @@ struct Stopwatch: View {
     var body: some View {
         VStack {
             HStack(spacing: 10) {
-                StopwatchUnit(timeUnit: hours, timeUnitText: "HR", color: darkPink)
+                StopwatchUnit(timeUnit: hours, timeUnitText: "HR", color: .darkPink)
                 Text(":")
                     .font(.system(size: 48))
                     .foregroundColor(.white)
                     .offset(y: -18)
-                StopwatchUnit(timeUnit: minutes, timeUnitText: "MIN", color: darkBlue)
+                StopwatchUnit(timeUnit: minutes, timeUnitText: "MIN", color: .darkBlue)
                 Text(":")
                     .font(.system(size: 48))
                     .foregroundColor(.white)
                     .offset(y: -18)
-                StopwatchUnit(timeUnit: seconds, timeUnitText: "SEC", color: darkGreen)
+                StopwatchUnit(timeUnit: seconds, timeUnitText: "SEC", color: .darkGreen)
             }
 
             HStack {
@@ -59,7 +59,7 @@ struct Stopwatch: View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 15.0)
                             .frame(width: 120, height: 50, alignment: .center)
-                            .foregroundColor(isRunning ? darkPink : darkGreen)
+                            .foregroundColor(isRunning ? .darkPink : .darkGreen)
 
                         Text(isRunning ? "Stop" : "Start")
                             .font(.title)
@@ -127,7 +127,7 @@ struct StopwatchUnit: View {
 struct Stopwatch_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            darkGray.edgesIgnoringSafeArea(.all)
+            Color.darkGray.edgesIgnoringSafeArea(.all)
 
             Stopwatch()
         }

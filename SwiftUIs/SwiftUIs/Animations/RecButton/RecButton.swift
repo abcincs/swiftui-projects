@@ -52,7 +52,7 @@ struct RecButton: View {
 struct RecButton_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            darkGray.edgesIgnoringSafeArea(.all)
+            Color.darkGray.edgesIgnoringSafeArea(.all)
             
             RecButton()
                 .frame(width: 100, height: 100)

@@ -26,7 +26,7 @@ struct OrderButton: View {
 
     var body: some View {
         ZStack {
-            darkGray
+            Color.darkGray
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
@@ -37,13 +37,14 @@ struct OrderButton: View {
                                 .frame(width:(status == .ready) ? 0 : 150)
 
                             ShippingTruck(isPlaced: $isPlaced)
-                                .foregroundColor(darkPink)
+                                .foregroundColor(.darkPink)
                                 .opacity(showShippingTruck ? 1 : 0)
                                 .animation(Animation.linear(duration: (status == .started && showShippingTruck) ? progressBarAnimationTime : animationTime).delay(0.3))
 
                             Spacer()
                                 .frame(width:(status == .ready) ? 150 : 0)
-                        }.frame(width: progressBarWidth)
+                        }
+                        .frame(width: progressBarWidth)
 
                         Spacer()
                             .frame(height: 130)
@@ -51,7 +52,7 @@ struct OrderButton: View {
 
                     if status != .finished {
                         RoundedRectangle(cornerRadius: 20, style: .circular)
-                            .fill(status == .finished ? darkPink : darkBlue)
+                            .fill(status == .finished ? Color.darkPink : .darkBlue)
                             .frame(width: (status == .finished) ? 80 : 250,
                                    height: (status == .started || showShippingTruck) ? 12 : 80)
                             .animation(.linear(duration: animationTime))
@@ -60,7 +61,7 @@ struct OrderButton: View {
 
                     HStack {
                         RoundedRectangle(cornerRadius: 20, style: .circular)
-                            .fill(darkPink)
+                            .fill(Color.darkPink)
                             .frame(height: (status == .finished) ? 80 : 12)
                             .animation(.linear(duration: (status == .finished) ? animationTime : progressBarAnimationTime))
 

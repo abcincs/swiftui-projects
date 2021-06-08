@@ -68,6 +68,7 @@
 		82D2EEC4265D3DA500A35C64 /* DotStrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2EEC3265D3DA500A35C64 /* DotStrokeView.swift */; };
 		82E280CC2535A045006A18D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CB2535A045006A18D4 /* Home.swift */; };
 		82E280CE2535A04B006A18D4 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E280CD2535A04B006A18D4 /* TabView.swift */; };
+		82FC9EF5266E150500F06DC5 /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC9EF4266E150500F06DC5 /* Color+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +135,7 @@
 		82D2EEC3265D3DA500A35C64 /* DotStrokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotStrokeView.swift; sourceTree = "<group>"; };
 		82E280CB2535A045006A18D4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		82E280CD2535A04B006A18D4 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		82FC9EF4266E150500F06DC5 /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				82BC16D1252DBA7C00148512 /* CustomTextView.swift */,
 				82BC16C8252DB9DF00148512 /* CardTextView.swift */,
 				82BC16CA252DB9E900148512 /* code.mp3 */,
+				82FC9EF4266E150500F06DC5 /* Color+extensions.swift */,
 				82ADDBA625EE359B00EDE545 /* JsonDecoder.swift */,
 				82ADDB9325EE2BEE00EDE545 /* Extension+View.swift */,
 				82ADDB9B25EE2CF700EDE545 /* Extension+Colors.swift */,
@@ -589,6 +592,7 @@
 				82227A2925B8A18A0069CB13 /* AlertFinishView.swift in Sources */,
 				82BC16EF252DBBE300148512 /* CrazyAudioMack.swift in Sources */,
 				82BC169B252DB80400148512 /* AppDelegate.swift in Sources */,
+				82FC9EF5266E150500F06DC5 /* Color+extensions.swift in Sources */,
 				82D2EEB6265D3C5D00A35C64 /* MusicPlayer.swift in Sources */,
 				82BC169D252DB80400148512 /* SceneDelegate.swift in Sources */,
 				82BC16BF252DB90700148512 /* CrazyCards.swift in Sources */,

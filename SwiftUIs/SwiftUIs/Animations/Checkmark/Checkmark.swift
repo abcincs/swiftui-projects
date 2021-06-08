@@ -16,7 +16,7 @@ struct Checkmark: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 10, style: .circular)
                     .stroke(style: StrokeStyle(lineWidth: 8, lineCap: .round))
-                    .fill(darkGreen)
+                    .fill(Color.darkGreen)
                     .opacity(isOn ? 1 : 0.6)
                     .animation(.easeIn)
 
@@ -24,7 +24,7 @@ struct Checkmark: View {
                     .resizable()
                     .frame(width: geo.size.width - 20, height: geo.size.height - 20)
                     .font(.system(size: 16, weight: .heavy))
-                    .foregroundColor(darkGreen)
+                    .foregroundColor(.darkGreen)
                     .opacity(isOn ? 1 : 0)
                     .animation(.easeIn)
             }.onTapGesture {
@@ -42,7 +42,7 @@ struct CheckmarkContentView: View {
 
     var body: some View {
         ZStack {
-            darkGray
+            Color.darkGray
                 .edgesIgnoringSafeArea(.all)
 
             Checkmark()
