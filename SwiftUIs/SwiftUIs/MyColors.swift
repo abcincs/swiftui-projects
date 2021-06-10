@@ -19,8 +19,6 @@ public enum Violet {
 
     static let darkPurple1 = Color(#colorLiteral(red: 0.201, green: 0.238, blue: 0.58, alpha: 1))
     static let darkPurple5 = Color(#colorLiteral(red: 0.05, green: 0.062, blue: 0.118, alpha: 1))
-
-
 }
 
 
