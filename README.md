@@ -1,4 +1,4 @@
-# swiftui-projects : Prototypes, Views, etc with SwiftUI
+# SwiftUI projects : Prototypes, Views, etc with SwiftUI
 
 ## Contains SwiftUI Views, Implementation, ....
 
